@@ -1,1 +1,8 @@
 # Developer Guidelines
+
+
+
+
+
+Testedit Rolf
+
