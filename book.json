@@ -10,7 +10,7 @@
 	"links": {
 		"home": null,
 		"about": false,
-		"issues": null,
+		"issues": "https://www.gitbook.com/book/blochberger/developer-guidelines/discussions",
 		"contribute": null,
 		"sharing": {
 			"google": null,
