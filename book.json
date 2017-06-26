@@ -20,6 +20,7 @@
 	},
 	"pdf": {
 		"toc": true,
-		"pageNumbers": true
+		"pageNumbers": true,
+		"fontFamily": "Sans"
 	}
 }
