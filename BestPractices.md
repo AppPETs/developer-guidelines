@@ -110,7 +110,7 @@ HTML5 introduced new possibilities of communication such as WebSockets and Cross
 
 HTML5 introduced several options for storing data on the client-side.
 These may be used for caching purposes for online applications, but also for persistent storage of data for offline apps.
-Guidelines to be followed when working with data on the client-side i.e. how to make application data safe are described below:
+Guidelines to be followed when working with data on the client-side, i.e., how to make application data safe are described below:
 
 #### Use a secure connection for communication between client and server.
 
@@ -203,7 +203,7 @@ Some security features (non-exhaustive and vendor dependent) that platforms prov
 - Ensuring security policies are enforced and devices remain updated
 - Device reset (support for hard reset of device, or deletion of data on external storage media)
 - Real-time, inbound and outbound traffic monitoring (scanning any file received via SMS, MMS, Bluetooth, Wi-Fi, infrared, or desktop sync)
-- Blacklist and Whitelist filtering (i.e. application filtering)
+- Blacklist and Whitelist filtering (i.e., application filtering)
 - Ability to log and report all security activity and being able to pull and deliver detailed reports for any exceptions, violation of company security policy and devices entering and leaving service.
 - Reports can be by device type, groups or user type, password entry failure and redeployment of new policy upon reconnection, and you can obtain status of client delivered to handheld devices
 - Some platforms support data fading ie allow IT administrator to lock, wipe or reset a device that has not communicated with the corporate network / server for a certain period of time, rendering the device unusable.

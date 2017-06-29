@@ -32,7 +32,7 @@ Collected data has to be anonymized or pseudonymized as much as possible.
 
 ## Data Worthy of Protection
 Data worthy of protection is mostly identical to personally identifiable data.
-There are differences however, e.g. business relevant data (trade secrets, confidential information), personal notes and other sensitive information with no direct connection to a physical person.
+There are differences however, e.g., business relevant data (trade secrets, confidential information), personal notes and other sensitive information with no direct connection to a physical person.
 
 ## Encryption
 Encryption in accordance with the latest technologies refers to a continually evolving designation of the security level of encryption procedures.

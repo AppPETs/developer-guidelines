@@ -201,7 +201,7 @@ Where technically possible, the login mechanism for applications must abide by t
 ### Auditing and Logging
 
 User access activities must be logged and audited to identify unauthorized access and to determine possible flaws in the access control system.
-At a minimum, successful and failed user logon and logoffs must be captured (i.e. data & time stamp, user ID, application name, pass/fail indicator) and recorded on the back-end system rather than the mobile device.
+At a minimum, successful and failed user logon and logoffs must be captured (i.e., data & time stamp, user ID, application name, pass/fail indicator) and recorded on the back-end system rather than the mobile device.
 
 ### Privileged Account Controls
 
@@ -230,7 +230,7 @@ These include:
 -   Track all third party frameworks/APIs used in mobile applications for security patches.
 -   Use static code analyzers during the build process to identify security flaws.
 -   Use safe string functions during development to avoid buffer and integer overflows.
--   Do not use sensitive parameters in the URLs (i.e. user id, session id, etc.).
+-   Do not use sensitive parameters in the URLs (i.e., user id, session id, etc.).
 
     When compiling the application for distribution, the application must be build using the Release/Distribution configuration and not DEBUG configuration.
 
