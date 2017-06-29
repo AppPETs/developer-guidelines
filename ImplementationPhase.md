@@ -68,7 +68,7 @@ The exclusion takes place using the “IsExcludedFromBackupKey” function.
 ### Cloud provider contact data (B2C)
 
 The user MUST be able to access all provider data that is relevant with regard to data protection.
-It MUST be possible to establish contact with the cloud service provider directly and to request that all data is deleted from the cloud (see [Data deletion](PreImplementationPhase.md#data-deletion-b2c).
+It MUST be possible to establish contact with the cloud service provider directly and to request that all data is deleted from the cloud (see [Data deletion](PreImplementationPhase.md#data-deletion-b2c)).
 
 ### Security by obscurity
 
