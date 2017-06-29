@@ -23,7 +23,7 @@ In this document, the terms MUST, SHOULD, CAN and MAY are utilized within the se
 Use of these terms applies only to specific instructions that have to be followed during application development.
 
 Users of this guideline are provided with information, which issues of data protection and data security have to be taken into consideration to produce a secure application.
-Furthermore they are provided with information as to which behavior or properties of an app might have an influence on categorizing it into the Blacklists1 or Whitelists2 of devices administrated via a Mobile Device Management3 system (MDM).
+Furthermore they are provided with information as to which behavior or properties of an app might have an influence on categorizing it into the Blacklists or Whitelists of devices administrated via a Mobile Device Management system (MDM).
 This applies especially to applications, where an app store release is planned.
 
 A behavioral pattern (e.g. data transmission behavior) or feature (e.g. use of cloud storage) of the application MUST fulfill a certain condition in order to obtain entry in the Whitelist.
