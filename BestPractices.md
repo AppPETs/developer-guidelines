@@ -92,7 +92,7 @@ When developing HTML5 based applications, several security threats should be con
 - Geolocation API
 - SVG Graphics Format
 - Speech Input
-- Additional Experimental API's (Media Capture API, System Information API)
+- Additional Experimental APIs (Media Capture API, System Information API)
 
 In addition to the aforementioned list of security threats that needs to be addressed, there is also an option to obfuscate the source code of an application to make it harder to understand and thus to prepare and inject malicious code.
 

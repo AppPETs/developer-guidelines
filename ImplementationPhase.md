@@ -131,7 +131,7 @@ This SHOULD definitely be practiced in relation to Anti-Features.
 
 ## Remote Wipe / Kill Switch
 
-In the case of loss or theft, applications on managed devices SHOULD leverage remote wipe and kill switch API's available from the OS to remove sensitive data.
+In the case of loss or theft, applications on managed devices SHOULD leverage remote wipe and kill switch APIs available from the OS to remove sensitive data.
 This applies mainly to applications storing sensitive and company-relevant data.
 
 ## User Interaction
