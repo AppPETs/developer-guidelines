@@ -186,7 +186,7 @@ Where technically possible, the login mechanism for applications must abide by t
         Idle timeout must be at least 60 minutes for confidential and highly confidential data, at least 30 minutes for restricted data
 -   Authentication
     -   In general, if a mobile application will store any type of restricted or highly sensitive data, two-factor authentication is recommended
-    -   If basic authentication must be used, an encryption mechanism such as SSL or IPSEC must be employed to protect the plaintext credentials
+    -   If basic authentication must be used, an encryption mechanism such as TLS or IPSEC must be employed to protect the plaintext credentials
     -   Ensure authentication credentials or tokens are transmitted to the back-end with every request made from the mobile application
     -   Authentication attributes used by the application must map to the end user instead of the device.
 

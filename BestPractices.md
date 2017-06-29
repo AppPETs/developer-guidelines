@@ -115,7 +115,7 @@ Guidelines to be followed when working with data on the client-side, i.e., how t
 #### Use a secure connection for communication between client and server.
 
 Storage space is assigned per-origin, but intruders can use DNS spoofing to access user's data.
-SSL should be used as prevention.
+TLS should be used as prevention.
 
 #### Store as little sensitive information on the client-side as possible.
 
