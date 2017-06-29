@@ -151,7 +151,7 @@ Certificates must be from a reputable certificate authority; the application mus
 
 Do not use SMS or push notifications as a secure channel of transmission.
 
-For more information about this "fast changing" area of secure communication external information like the "Mozilla Server Side TLS Guidelines"1 should be used.
+For more information about this "fast changing" area of secure communication external information like the "Mozilla Server Side TLS Guidelines" should be used.
 
 ### "State of the Art" integration of cryptography
 
