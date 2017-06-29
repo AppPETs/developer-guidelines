@@ -2,7 +2,7 @@
 
 ## User Interaction
 
-###  App configuration “secure by default”
+### App configuration “secure by default”
 
 When creating an application, you should not only take inexperienced users into consideration, but also provide configuration options for more adept users.
 Even if an application loses some functionality by blocking access, to contact data for example, these features should still be made available to the user.
@@ -12,16 +12,16 @@ This allows preconfiguration of all options with regard to (data-) protective be
 
 Historical data or other sensitive information SHOULD NOT be stored on the device beyond the required period for the application to perform its task or operation (i.e. GPS location information, application specific information, etc.).
 
-###  Error messages
+### Error messages
 
 Error messages SHOULD help users to submit an error report or avoid the problem in future.
 Error messages MUST not allow the internal program structure to be inferred, which would make it easy to compromise the program structure or the data stored therein.
 
-###  Screen lock
+### Screen lock
 
 If a screen lock can be deactivated by the application, it MUST provide an option for deactivating this function and also inform the user of this function.
 
-###  Password security & password policies
+### Password security & password policies
 
 $Insert Company Password Policy Passwords MUST enable a minimum level of security.
 Users SHOULD be notified if their passwords are too simple or too short.
@@ -40,7 +40,7 @@ This applies also to tokens used for authorization or authentication.
 
 ## Operation system specific security options
 
-###  iOS
+### iOS
 
 Using the copy & paste function provided by iOS sensitive data might be copied to clipboard.
 To prevent other applications using the copied information the clipboard memory SHOULD be cleared on every occasion the app is switched to the background.
@@ -52,7 +52,7 @@ For other input fields used for potentially sensitive information keyboard cachi
 When pressing the Home button, iOS automatically takes a screenshot to simulate a switch-to-background animation.
 Sensitive information MUST NOT be shown on those screenshots by using the delegate-method applicationWillEnterBackground.
 
-###  Android
+### Android
 
 Activities which are used only by the app itself MUST NOT be exported.
 Also intents used to start activities MUST NOT content any sensitive information.
@@ -61,19 +61,19 @@ The same applies for SharedPreferences.
 Sensitive information MAY NOT be included in error messages or locally stored log files.
 Exception handling MUST prevent sensitive information to be displayed in the LogCat.
 
-###  BlackBerry OS
+### BlackBerry OS
 
 At the current state of this document there is no specific security option entry available for BlackBerry OS.
 That may change at a later state of this document.
 
-###  Windows Phone
+### Windows Phone
 
 At the current state of this document there is no specific security option entry available for Windows Phone.
 That may change at a later state of this document.
 
 ## Cross-platform development: HTML 5 Application Development
 
-###  Security of Application Code
+### Security of Application Code
 
 When developing HTML5 based applications, several security threats should be considered and addressed to make the application secure, including:
 
@@ -102,11 +102,11 @@ Reasons for Code Obfuscation include:
 - Protection of intellectual property
 - Enforce licensing agreements
 
-###  Communication Security
+### Communication Security
 
 HTML5 introduced new possibilities of communication such as WebSockets and Cross-Document messaging, which also introduced new possible security threats.
 
-###  Data Security
+### Data Security
 
 HTML5 introduced several options for storing data on the client-side.
 These may be used for caching purposes for online applications, but also for persistent storage of data for offline apps.
