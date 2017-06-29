@@ -134,4 +134,35 @@ This SHOULD definitely be practiced in relation to Anti-Features.
 In the case of loss or theft, applications on managed devices SHOULD leverage remote wipe and kill switch API’s available from the OS to remove sensitive data.
 This applies mainly to applications storing sensitive and company-relevant data.
 
+## User Interaction
 
+### App configuration “secure by default”
+
+The app should be preconfigured to be secure by default (from a data-protection perspective).
+Historical data and sensitive information are not stored on the device beyond the required period for the application to perform its task or operation (e.g. GPS location information, etc.)
+
+### Error Messages
+
+Error messages must not reveal the internal structure of the app to the user.
+
+- Error reports sent by the user do not include personal data.
+- Error reports are transmitted over a secured connection.
+
+### Screen Lock
+
+Deactivating the screen lock functionality must be confirmed by the user.
+There must also be an option to disable the screen lock deactivation.
+
+### Password security & password policies
+
+Passwords must enable a minimum level of security.
+
+-   The user is informed about a too weak password.
+-   Passwords are not transmitted in plain text.
+-   Passwords should have a minimum length of 12 characters.
+-   Password input fields should not resemble the real length of a password when showing placeholder characters (like *)
+-   Passwords may not be part of a backup or cached in plain text.
+
+    The same applies to authorization, authentication and session tokens.
+
+-   Password complexity should not be limited

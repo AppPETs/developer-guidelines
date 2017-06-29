@@ -70,6 +70,14 @@ It is not possible to change the Android ID in Android, which is often used by a
 The same applies to the UDID on iOS devices, that can only be faked on a device with a Jailbreak installed.
 Use of these IDs is mostly prohibited by the operating systems manufacturer (especially for ad tracking purposes).
 
+
+To summarize: Device-specific information gathered has to follow some restrictions:
+
+- Unique identifiers (UDID, IMEI, MAC addresses etc.) are obtained only after an user-confirmed Opt-In.
+- Unique identifiers are not used for individual user tracking.
+- Tracking IDs (IDFA, AAID) are transmitted in encrypted form.
+- User-disabled tracking options have to be respected.
+
 ### Data access (B2C)
 
 Access to data (e.g. PIM, media, etc.) MUST take place in line with data economy according to §3a BDSG.
