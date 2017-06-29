@@ -2,12 +2,12 @@
 
 ## User Interaction
 
-### App configuration “secure by default”
+### App configuration "secure by default"
 
 When creating an application, you should not only take inexperienced users into consideration, but also provide configuration options for more adept users.
 Even if an application loses some functionality by blocking access, to contact data for example, these features should still be made available to the user.
 When using such a function for the first time, approval of the user SHOULD be obtained, something that also contributes towards sensitization.
-In this dialog it SHOULD be possible to deactivate the “query behavior“, in order to ensure inexperienced users are not “annoyed“.
+In this dialog it SHOULD be possible to deactivate the "query behavior", in order to ensure inexperienced users are not "annoyed".
 This allows preconfiguration of all options with regard to (data-) protective behavior, without having to lose out on functionality.
 
 Historical data or other sensitive information SHOULD NOT be stored on the device beyond the required period for the application to perform its task or operation (i.e. GPS location information, application specific information, etc.).
@@ -25,7 +25,7 @@ If a screen lock can be deactivated by the application, it MUST provide an optio
 
 $Insert Company Password Policy Passwords MUST enable a minimum level of security.
 Users SHOULD be notified if their passwords are too simple or too short.
-What’s more, insufficient passwords MAY NOT be allowed to “leave” the device.
+What's more, insufficient passwords MAY NOT be allowed to "leave" the device.
 The level of security provided by a password MAY NOT be artificially limited through the implementation of short minimum lengths or the exclusion of special characters.
 A password SHOULD have a minimum length of 12 and a maximum length of 30 characters.
 
@@ -92,7 +92,7 @@ When developing HTML5 based applications, several security threats should be con
 - Geolocation API
 - SVG Graphics Format
 - Speech Input
-- Additional Experimental API’s (Media Capture API, System Information API)
+- Additional Experimental API's (Media Capture API, System Information API)
 
 In addition to the aforementioned list of security threats that needs to be addressed, there is also an option to obfuscate the source code of an application to make it harder to understand and thus to prepare and inject malicious code.
 
@@ -130,7 +130,7 @@ All data stored in web storage should not be stored longer than necessary.
 If there is a need to store data on the client, always think about using session storage before local storage.
 Use local storage only if data needs to be persisted between sessions.
 
-Moreover, always think about the “internet café” option, where several users can access the same application, meaning that they can also access each other’s data.
+Moreover, always think about the "internet café" option, where several users can access the same application, meaning that they can also access each other's data.
 The use of local storage should be avoided completely in these scenarios.
 Also, if the FileSystem API is used, data should be cleaned up when the session ends.
 

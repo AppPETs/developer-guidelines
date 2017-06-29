@@ -9,7 +9,7 @@ Irrespective of mobile platform choice developers need to have a clear understan
 A lifecycle approach (e.g. Scrum or similar models) is recommended throughout to support the highest level of security possible.
 There needs to be buy-in from all stakeholders and a standards based approach to address mobile application security holistically.
 
-Mobile application security is implemented in all stages of the application’s life cycle, similar to device security.
+Mobile application security is implemented in all stages of the application's life cycle, similar to device security.
 The following sections discuss the methods and tools for securing mobile applications.
 
 ### Security Integration into the Development Lifecycle
@@ -55,7 +55,7 @@ Techniques for manual code review include spot inspection, methodical inspection
 
 -   Methodical inspection
 
-    Inspection is based upon logical flow of source code and the analyst’s intuition.
+    Inspection is based upon logical flow of source code and the analyst's intuition.
     The design documents will be required in order to understand the software design flow.
     The embedded comments in the source code will also be examined to determine indicators of logical security errors.
     Not all of the source code is examined for logical flaws; just the areas where indications lead the analyst.
@@ -130,7 +130,7 @@ These scanners check web applications for common security problems such as SQL i
 
 Application Lifecycle Management (ALM) can be divided into three significant events: idea, deployment, and decommissioning.
 In the first phase of the lifecycle, an existing app is selected for use within the enterprise and secured at the source code level.
-The secured app is then deployed through an app store hosted by the client’s server resources.
+The secured app is then deployed through an app store hosted by the client's server resources.
 During deployment, the app is maintained via Mobile Device Management (MDM).
 MDM maintains the device by continuously monitoring for compliance and enforcing required updates.
 
@@ -151,9 +151,9 @@ Certificates must be from a reputable certificate authority; the application mus
 
 Do not use SMS or push notifications as a secure channel of transmission.
 
-For more information about this “fast changing” area of secure communication external information like the “Mozilla Server Side TLS Guidelines”1 should be used.
+For more information about this "fast changing" area of secure communication external information like the "Mozilla Server Side TLS Guidelines"1 should be used.
 
-### “State of the Art” integration of cryptography
+### "State of the Art" integration of cryptography
 
 (USE Checlist Definition)
 
@@ -174,7 +174,7 @@ Where technically possible, the login mechanism for applications must abide by t
     -   Password must be masked upon login
     -   Login fields must or suggest valid user IDs or password/passphrases.
 
-        Auto-complete attribute of login form must be explicitly set to ‘off’.
+        Auto-complete attribute of login form must be explicitly set to 'off'.
 -   System
     -   Must enforce a password change for new accounts on first login
     -   Must enforce a password change in appropriate timeframe (e.g. 75 days)
@@ -196,7 +196,7 @@ Where technically possible, the login mechanism for applications must abide by t
     -   The application must have a facility that will enable an administrator to define role-based access control and configure granular permissions.
 
         Least privilege principle must be implemented
-    -   Development team members’ access to source code in the development and test environments must be reviewed at least every 6 months or when people roll-off
+    -   Development team members' access to source code in the development and test environments must be reviewed at least every 6 months or when people roll-off
 
 ### Auditing and Logging
 

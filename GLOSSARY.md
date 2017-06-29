@@ -41,7 +41,7 @@ Current summary (as at 31.10.2013): RC4 – not sufficient; AES – not optimal,
 - https://en.wikipedia.org/wiki/Encryption
 
 ## Failure by Design
-“Failure by Design” is a term that describes the opposite of "Privacy by Design".
+"Failure by Design" is a term that describes the opposite of "Privacy by Design".
 It describes fundamental errors made when designing an infrastructure, which prevent data-protection-compliant behavior.
 
 ## Hash Function
@@ -53,7 +53,7 @@ This should ensure recognizability without actually providing the date itself.
 
 ## Mobile Device Management (MDM)
 Mobile Device Management software secures, monitors and manages mobile devices deployed in enterprises.
-It allows centralized control and administration over connected mobile devices and can ensure users are following the company’s security policies.
+It allows centralized control and administration over connected mobile devices and can ensure users are following the company's security policies.
 
 ## Mozilla Server Side TLS Guidelines
 The goal of this site is to help operational teams with the configuration of TLS on servers and to offer an single point of information that is going to be updated as new technical standards eveolve.
@@ -66,14 +66,14 @@ The user MUST actively provide their consent.
 Its opposite is Opt-Out describes a generally activated function that has to be deactivated manually by the user.
 
 ## Personally Identifiable Information (PII)
-Personally identifiable data are, according to §3 para. 1 of the Federal Data Protection Act (BDSG), “Individual pieces of information relating to personal or professional circumstances of a specific or specifiable person“, in other words, data, the content of which can be used to determine the person to which it relates.
-According to §3 para. 9 BDSG, there is also “special types of personal data“.
+Personally identifiable data are, according to §3 para. 1 of the Federal Data Protection Act (BDSG), "Individual pieces of information relating to personal or professional circumstances of a specific or specifiable person", in other words, data, the content of which can be used to determine the person to which it relates.
+According to §3 para. 9 BDSG, there is also "special types of personal data".
 This includes health-related data, information on race or ethnic origin, political, religious, trade union or sexual orientation.
 
 - https://en.wikipedia.org/wiki/Personally_identifiable_information
 
 ## Privacy by Design (PbD)
-“Privacy by Design” is a term that refers to "taking data protection into consideration" during product development.
+"Privacy by Design" is a term that refers to "taking data protection into consideration" during product development.
 This generally relates to the fact that data-protection-relevant topics can be implemented unproblematically, if they are dealt with from the very beginning.
 It has been proven that the subsequent implementation of data protection is more expensive and also more complex.
 Usability and quality generally also suffer as a result of this.
@@ -85,7 +85,7 @@ In contrast to anonymization, all data, which has been pseudonymized using the s
 - https://en.wikipedia.org/wiki/Pseudonymization
 
 ## Root / Jailbreak
-Root / Jailbreak describes the process of extending a user’s rights on the end device.
+Root / Jailbreak describes the process of extending a user's rights on the end device.
 After a jailbreak the administrator rights are held by the user and no longer by the manufacturer, as is the case with standard Desktop Computers, which means the user will be able to remove usage restrictions, fix security gaps or remove undesired, preinstalled applications.
 With access to system partitions and operating system relevant files it is also possible to cause damage to the operating system.
 

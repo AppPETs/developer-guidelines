@@ -10,13 +10,13 @@ Data worthy of protection MUST be protected against unauthorized access or manip
 Algorithms like RC4 or CBC are not sufficient.
 
 The identity of the communication partner MUST be verified (possible via Certificate Pinning).
-This allows problems caused by operating system errors (e.g. “goto fail“ under iOS) to be avoided.
+This allows problems caused by operating system errors (e.g. "goto fail" under iOS) to be avoided.
 However, it has to be made sure that the certificates are always up-to-date.
 A new certificate on the communicating server will require a new version of the app with an updated certificate table.
 
-If the identity of the communication counterpart (e.g. a server or another client) is not properly verified or data is transferred via an unsafe connection, transferred data from the server MUST be validated by the app to ensure no tampered/modified files are transferred on the user’s device.
+If the identity of the communication counterpart (e.g. a server or another client) is not properly verified or data is transferred via an unsafe connection, transferred data from the server MUST be validated by the app to ensure no tampered/modified files are transferred on the user's device.
 
-### Standardized and current protocols – “State of the Art“
+### Standardized and current protocols – "State of the Art"
 
 Apps SHOULD use standardized protocols for communication (e.g. JSON, XML, XMPP, etc.).
 In doing so care should be taken to ensure the libraries that are used are deemed secure in accordance with the latest technologies available.
@@ -26,7 +26,7 @@ In doing so care should be taken to ensure the libraries that are used are deeme
 ### Local data storage
 
 An app MUST select a storage location and storage type that correspond with the level of protection required for the data to be saved.
-With regard to data that is particularly worthy of protection, the “secure” memory provided by the operating system should be used.
+With regard to data that is particularly worthy of protection, the "secure" memory provided by the operating system should be used.
 Furthermore, an encryption method for protecting such data MUST be implemented.
 When using encryption, care MUST be taken to ensure sufficient initialization vectors and secure operating modes are used.
 The hash procedure SHOULD take the usage of salt into consideration when generating keys.
@@ -63,7 +63,7 @@ This means it MUST be stored using a procedure that complies with modern encrypt
 For automatic data backups the backup mechanism SHOULD be within the enterprise domain, where the transmission of data occurs via a safe and tested channel.
 
 With regard to iOS, personal or sensitive data with corresponding file system attributes SHOULD be excluded from the automatic saving in the iCloud, and the user MUST be informed of this situation when no appropriate encryption is available.
-The exclusion takes place using the “IsExcludedFromBackupKey” function.
+The exclusion takes place using the "IsExcludedFromBackupKey" function.
 
 ### Cloud provider contact data (B2C)
 
@@ -89,31 +89,31 @@ For additional information, see [Automated and Manual Code Review](Implementatio
 Compiler warnings MUST be treated as errors and removed from the source code before the application is released.
 Activation of the corresponding compiler flags varies depending on the compiler used.
 
-During iOS application code compiling using LLVM, the compiler switches “-wall” and “-werror” are affected.
+During iOS application code compiling using LLVM, the compiler switches "-wall" and "-werror" are affected.
 Furthermore, before the iOS application is released, the source code MUST be analyzed using the Clang Static Analyzer, and any error messages found during the source code analysis must be addressed accordingly.
 
-During Android application code compiling using the Eclipse Java Compiler (EJC), the compiler switch “-err:all” is affected.
+During Android application code compiling using the Eclipse Java Compiler (EJC), the compiler switch "-err:all" is affected.
 
-During Windows Phone application code compiling using Microsoft Visual Studio 2013, the compiler switch “/WX” is affected.
+During Windows Phone application code compiling using Microsoft Visual Studio 2013, the compiler switch "/WX" is affected.
 
 ## Implementing Third-Party modules
 
-### Advertising modules “Ad Tracking” (B2C)
+### Advertising modules "Ad Tracking" (B2C)
 
 If modules are used for customized advertising and ad tracking, the user MUST be notified of this.
 Personally identifiable data MUST NOT be transmitted to advertising companies.
-Ad tracking SHOULD be an Opt-In and MUST at least have an Opt-Out (this could also be realized through the purchase of an “ad free“-Add-on).
+Ad tracking SHOULD be an Opt-In and MUST at least have an Opt-Out (this could also be realized through the purchase of an "ad free"-Add-on).
 
 With regard to identification of the user, only the advertising ID designated by the system MAY be used for this purpose (see [Device-specific information](PreImplementationPhase.md#device-specific-information-b2c)).
 Unique IDs MUST NOT be used for ad tracking.
 
-### User Statistics & Analytics “Performance Tracking”
+### User Statistics & Analytics "Performance Tracking"
 
 In principal, the same rules as for ad tracking apply here.
-Tracking here has a different focal point, which means it is not the “monitoring” of the user that is being focused on here, but the way in which they use the app.
+Tracking here has a different focal point, which means it is not the "monitoring" of the user that is being focused on here, but the way in which they use the app.
 This means there is no need to transmit any personal data.
 
-### Development-supporting modules and “SDKs”
+### Development-supporting modules and "SDKs"
 
 There are other areas with additional modules or even entire development environments, which deal with source code maintenance or the creation of the source code.
 In these areas it MUST be made clear in advance that no modules may be integrated into the application that do not comply with these guidelines.
@@ -123,7 +123,7 @@ As of July 2014, SDKs containing known weaknesses are for example the Facebook c
 
 ## Update functionality (B2C)
 
-An application MAY only install those updates independently, which do not change the application’s basic functionality from a data protection perspective.
+An application MAY only install those updates independently, which do not change the application's basic functionality from a data protection perspective.
 Applications MAY NOT update their basic functional behavior without informing the user.
 Updates SHOULD be confirmed by the user.
 Changes MUST be communicated to the user in an understandable and barrier-free manner (see [Implementing a Privacy Policy and Terms Of Service](PreImplementationPhase.md#implementing-a-privacy-policy-and-terms-of-service-b2c)).
@@ -131,12 +131,12 @@ This SHOULD definitely be practiced in relation to Anti-Features.
 
 ## Remote Wipe / Kill Switch
 
-In the case of loss or theft, applications on managed devices SHOULD leverage remote wipe and kill switch API’s available from the OS to remove sensitive data.
+In the case of loss or theft, applications on managed devices SHOULD leverage remote wipe and kill switch API's available from the OS to remove sensitive data.
 This applies mainly to applications storing sensitive and company-relevant data.
 
 ## User Interaction
 
-### App configuration “secure by default”
+### App configuration "secure by default"
 
 The app should be preconfigured to be secure by default (from a data-protection perspective).
 Historical data and sensitive information are not stored on the device beyond the required period for the application to perform its task or operation (e.g. GPS location information, etc.)
