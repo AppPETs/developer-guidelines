@@ -166,7 +166,7 @@ Where technically possible, the login mechanism for applications must abide by t
     -   password length must exceed 12 characters
     -   use of upper- and lower-case letters (case sensitivity)
     -   inclusion of one or more numerical digits
-    -   inclusion of special characters, e.g. @, #, $ etc.
+    -   inclusion of special characters, e.g. `@`, `#`, `$` etc.
     -   prohibition of words found in a dictionary or the user's personal information
     -   prohibition of passwords that match the format of calendar dates, license plate numbers, telephone numbers, or other common numbers
     -   prohibition of use of company name or an abbreviation
@@ -223,7 +223,7 @@ These include:
 -   Validate numeric values are indeed numeric and fall within the expected value range.
 -   Reject inputs with potentially malicious characters.
 
-    Sanitize input to exclude context-changing symbols such as apostrophe, quotes, etc.; as well as script characters such as `< > " ' % ; ) ( & +` `<script>` `</script>` JavaScript: img
+    Sanitize input to exclude context-changing symbols such as apostrophe, quotes, etc.; as well as script characters such as `< > " ' % ; ) ( & +`, `<script>`, `</script>`, JavaScript: `img`
 -   Use parameterized SQL query statements.
 
     Input values must not be directly concatenated to SQL query statements.

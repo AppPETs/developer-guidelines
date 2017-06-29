@@ -37,9 +37,9 @@ The same applies to proprietary and sensitive business logic.
 Under iOS, the iOS Keychain MUST be used for storing sensitive data such as passwords, keys and certificates.
 An appropriate protection class MUST be selected for saved data.
 
-When saving personal or sensitive data on an iOS device, the protection class (NSFileProtection) that offers the best possible protection for the data MUST be used.
+When saving personal or sensitive data on an iOS device, the protection class (`NSFileProtection`) that offers the best possible protection for the data MUST be used.
 
-Under Android, sensitive data such as passwords, keys and certificates SHOULD be stored in the Keychain class (android.security.KeyChain).
+Under Android, sensitive data such as passwords, keys and certificates SHOULD be stored in the Keychain class (`android.security.KeyChain`).
 If this is not possible for technical reasons, then the data MUST be encrypted.
 
 Sensitive data MUST NOT be stored in external memory on an Android device.
@@ -63,7 +63,7 @@ This means it MUST be stored using a procedure that complies with modern encrypt
 For automatic data backups the backup mechanism SHOULD be within the enterprise domain, where the transmission of data occurs via a safe and tested channel.
 
 With regard to iOS, personal or sensitive data with corresponding file system attributes SHOULD be excluded from the automatic saving in the iCloud, and the user MUST be informed of this situation when no appropriate encryption is available.
-The exclusion takes place using the "IsExcludedFromBackupKey" function.
+The exclusion takes place using the `IsExcludedFromBackupKey` function.
 
 ### Cloud provider contact data (B2C)
 
@@ -89,12 +89,12 @@ For additional information, see [Automated and Manual Code Review](Implementatio
 Compiler warnings MUST be treated as errors and removed from the source code before the application is released.
 Activation of the corresponding compiler flags varies depending on the compiler used.
 
-During iOS application code compiling using LLVM, the compiler switches "-wall" and "-werror" are affected.
+During iOS application code compiling using LLVM, the compiler switches `-wall` and `-werror` are affected.
 Furthermore, before the iOS application is released, the source code MUST be analyzed using the Clang Static Analyzer, and any error messages found during the source code analysis must be addressed accordingly.
 
-During Android application code compiling using the Eclipse Java Compiler (EJC), the compiler switch "-err:all" is affected.
+During Android application code compiling using the Eclipse Java Compiler (EJC), the compiler switch `-err:all` is affected.
 
-During Windows Phone application code compiling using Microsoft Visual Studio 2013, the compiler switch "/WX" is affected.
+During Windows Phone application code compiling using Microsoft Visual Studio 2013, the compiler switch `/WX` is affected.
 
 ## Implementing Third-Party modules
 
@@ -160,7 +160,7 @@ Passwords must enable a minimum level of security.
 -   The user is informed about a too weak password.
 -   Passwords are not transmitted in plain text.
 -   Passwords should have a minimum length of 12 characters.
--   Password input fields should not resemble the real length of a password when showing placeholder characters (like *)
+-   Password input fields should not resemble the real length of a password when showing placeholder characters (like `*`)
 -   Passwords may not be part of a backup or cached in plain text.
 
     The same applies to authorization, authentication and session tokens.

@@ -50,7 +50,7 @@ Input fields used for passwords should be declared as such.
 For other input fields used for potentially sensitive information keyboard caching should be disabled.
 
 When pressing the Home button, iOS automatically takes a screenshot to simulate a switch-to-background animation.
-Sensitive information MUST NOT be shown on those screenshots by using the delegate-method applicationWillEnterBackground.
+Sensitive information MUST NOT be shown on those screenshots by using the delegate-method `applicationWillEnterBackground`.
 
 ### Android
 
