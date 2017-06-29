@@ -5,9 +5,9 @@
 This document serves as a guideline for app developers and assists with orientation during app development, in order to ensure comprehensive data security standards.
 The document has been designed in such a way that both inexperienced and experienced developers as well as decision-makers and non-technicians will be able to use it as a basis for planning and development activities as well as the creation of tenders for other projects related to application production.
 
-The bibliography (see → 7.1 Bibliography) contains additional information about further aspects of mobile security as well as links to the operating system manufacturer’s web presences.
+The [bibliography](References.md) contains additional information about further aspects of mobile security as well as links to the operating system manufacturer’s web presences.
 
-The glossary (see → 7.2 Glossary) contains explanations of the technical/specialist terms as well as a link list for obtaining further information.
+The [glossary](GLOSSARY.md) contains explanations of the technical/specialist terms as well as a link list for obtaining further information.
 Glossary terms are highlighted in the running text as written in italics and marked with an indicator number.
 
 There is also a checklist available, serving as an easy tool of controlling during the different phases of the application production process.

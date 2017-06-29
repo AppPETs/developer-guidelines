@@ -68,7 +68,7 @@ The exclusion takes place using the “IsExcludedFromBackupKey” function.
 ### Cloud provider contact data (B2C)
 
 The user MUST be able to access all provider data that is relevant with regard to data protection.
-It MUST be possible to establish contact with the cloud service provider directly and to request that all data is deleted from the cloud (see → 2.2 Data deletion).
+It MUST be possible to establish contact with the cloud service provider directly and to request that all data is deleted from the cloud (see [Data deletion](PreImplementationPhase.md#data-deletion-b2c).
 
 ### Security by obscurity
 
@@ -78,13 +78,13 @@ It MUST be possible to establish contact with the cloud service provider directl
 
 ## Server-powered services
 
-Local server services MAY only be addressed from an external application with an explicit request and MUST be protected against unauthorized access using appropriate measures (see → 4.1.1 Encrypted communication and validation).
+Local server services MAY only be addressed from an external application with an explicit request and MUST be protected against unauthorized access using appropriate measures (see [Encrypted communication and validation](#encrypted-communication-and-validation)).
 Server services MUST be blocked with regard to standard passwords, remote maintenance, remote administration and test access, and they may not automatically offer local file downloads without authentication.
 
 ## Secure code implementation
 
 The compiler used to translate the source code MUST be configured in such a way that the best possible review of the source code is carried out (e.g. compiler warnings may not be automatically ignored).
-For additional information, see → 3.1.4 Automated and Manual Code Review.
+For additional information, see [Automated and Manual Code Review](ImplementationPlanning.md#automated-and-manual-code-review).
 
 Compiler warnings MUST be treated as errors and removed from the source code before the application is released.
 Activation of the corresponding compiler flags varies depending on the compiler used.
@@ -104,7 +104,7 @@ If modules are used for customized advertising and ad tracking, the user MUST be
 Personally identifiable data MUST NOT be transmitted to advertising companies.
 Ad tracking SHOULD be an Opt-In and MUST at least have an Opt-Out (this could also be realized through the purchase of an “ad free“-Add-on).
 
-With regard to identification of the user, only the advertising ID designated by the system MAY be used for this purpose (see → 2.1.4 Device-specific information).
+With regard to identification of the user, only the advertising ID designated by the system MAY be used for this purpose (see [Device-specific information](PreImplementationPhase.md#device-specific-information-b2c)).
 Unique IDs MUST NOT be used for ad tracking.
 
 ### User Statistics & Analytics “Performance Tracking”
@@ -126,7 +126,7 @@ As of July 2014, SDKs containing known weaknesses are for example the Facebook c
 An application MAY only install those updates independently, which do not change the application’s basic functionality from a data protection perspective.
 Applications MAY NOT update their basic functional behavior without informing the user.
 Updates SHOULD be confirmed by the user.
-Changes MUST be communicated to the user in an understandable and barrier-free manner (see → 2.1.1 Implementing a Privacy Policy and Terms Of Service).
+Changes MUST be communicated to the user in an understandable and barrier-free manner (see [Implementing a Privacy Policy and Terms Of Service](PreImplementationPhase.md#implementing-a-privacy-policy-and-terms-of-service-b2c)).
 This SHOULD definitely be practiced in relation to Anti-Features.
 
 ## Remote Wipe / Kill Switch
