@@ -1,7 +1,5 @@
 # Key Takeaways
 
-For a checklist based approach as support for application development please see the document "Secure_Apps_Checklist".
-
 - Security and privacy have to be taken into consideration before the implementation of the app actually starts.
 - Security is a fast developing branch. Pay attention to technological progress.
 - Mobile application security is only one aspect of a broader security strategy and should be considered as such during application production.

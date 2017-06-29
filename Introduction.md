@@ -10,9 +10,6 @@ The [bibliography](References.md) contains additional information about further 
 The [glossary](GLOSSARY.md) contains explanations of the technical/specialist terms as well as a link list for obtaining further information.
 Glossary terms are highlighted in the running text as written in italics and marked with an indicator number.
 
-There is also a checklist available, serving as an easy tool of controlling during the different phases of the application production process.
-Please refer to the "$kunde_Secure_Apps_Checklist" documents.
-
 Certain chapters of this document are related to specific aspects of data protection and data security in a matter they may apply only if the app is designed for certain target audiences, e.g. Business to Customer (B2C), Business to Employee (B2E) and Business to Business (B2B).
 If such a restriction applies to a chapter, it will be highlighted as such at the chapter's headline.
 If there is no such indication, the chapter is relevant for all kinds of applications.
