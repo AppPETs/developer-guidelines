@@ -1,36 +1,31 @@
 # Introduction
 
-## Target Audiences and Application Classification
+The goal of the document is to support the development of privacy-respecting applications. Most guides focus either on the legal aspects of protecting the data of end users or they focus on technical measurements to secure processed data. This document is intended to fill the gap between both worlds and should provide an overview into the different aspects that need to be respected when developing applications.
 
-This document serves as a guideline for app developers and assists with orientation during app development, in order to ensure comprehensive data security standards.
-The document has been designed in such a way that both inexperienced and experienced developers as well as decision-makers and non-technicians will be able to use it as a basis for planning and development activities as well as the creation of tenders for other projects related to application production.
+Depending on the usage scenario, different protection goals are relevant. Not respecting certain aspects for certain scenarios might lead to legal consequences.
 
-The [bibliography](References.md) contains additional information about further aspects of mobile security as well as links to the operating system manufacturer's web presences.
+As the goal of the document is to act as an interface between technical solutions and legal aspects, references to both are given. The legal aspects in this document are based on the *General Data Protection Regulation* (GDPR), which becomes effective in May 25, 2018.
 
-The [glossary](GLOSSARY.md) contains explanations of the technical/specialist terms as well as a link list for obtaining further information.
-Glossary terms are highlighted in the running text as written in italics and marked with an indicator number.
+**TODO**: Explain that the referenced technical solutions are what is considered "state-of-the-art" – which is a fuzzy term in a legal context.
 
-Certain chapters of this document are related to specific aspects of data protection and data security in a matter they may apply only if the app is designed for certain target audiences, e.g. Business to Customer (B2C), Business to Employee (B2E) and Business to Business (B2B).
-If such a restriction applies to a chapter, it will be highlighted as such at the chapter's headline.
-If there is no such indication, the chapter is relevant for all kinds of applications.
+**TODO**: We could also reference developer guidelines from Google/Apple (see [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)) and mention that non-compliance with certain aspects might not only lead to legal consequences but also to rejecting for a market place (at least that is the case for Apple's App Store). Reason behind this: Developers might not fear legal consequences but rejection, because legal consequences might not appear imminent to them, e.g., if they are not directly responsible and think their boss/lawyers will handle it.
 
-## Terms and Methodology
+**TODO**: We could make the document more interesting if we "promise" to discuss how some analytics or advertisement could be realized in a privacy-friendly manner. Developers might think that "privacy = less functionality" and refrain from reading the document based on that prejudice.
 
-In this document, the terms MUST, SHOULD, CAN and MAY are utilized within the sense of RFC 2119.
-Use of these terms applies only to specific instructions that have to be followed during application development.
+## Target Audience
 
-Users of this guideline are provided with information, which issues of data protection and data security have to be taken into consideration to produce a secure application.
-Furthermore they are provided with information as to which behavior or properties of an app might have an influence on categorizing it into the Blacklists or Whitelists of devices administrated via a Mobile Device Management system (MDM).
-This applies especially to applications, where an app store release is planned.
+This document is for software developers or other decision makers related to data processing. It aims to clarify the actions required to prevent legal consequences and in addition to support the privacy of their end users.
 
-A behavioral pattern (e.g. data transmission behavior) or feature (e.g. use of cloud storage) of the application MUST fulfill a certain condition in order to obtain entry in the Whitelist.
-There is no margin of discretion here.
-If this condition is violated, this might result in an entry in the Blacklist depending on the assessment criteria and protection policies implemented by the MDM administrator.
+A background in security and privacy protection is not required. Background information is listed in the [Foundations](Foundations.md) section. The legal aspects are addressed in a non-legalese form, as developers tend to not read them – you are not alone on this.
 
-A behavioral pattern or property SHOULD fulfill a certain condition in order to obtain entry in the Whitelist.
-Fulfillment of this condition is generally required, but there will be margin for discretion in certain cases.
-If the condition is violated, this might result in entry in the Blacklist, but not always.
+**TODO**: How do we want to handle the separation of Business to Customer (B2C), Business to Employee (B2E), and Business to Business (B2B)? I suggest that the discussion of certain aspects should clarify the relevant context.
 
-A behavioral pattern or property CAN fulfill a certain condition.
-In order to obtain entry in the Whitelist, fulfillment of the condition would be beneficial, but there is plenty of room for discretion.
-Retrospective downgrading is however possible, if the assessment criteria are intensified.
+**TODO**: Is Mobile Device Management (MDM) relevant?
+
+## Document Structure
+
+The document is structured with respect to the target audience.
+
+First relevant background information on security and privacy is provided. Especially the terminology used throughout this document is explained, as terms differ between the software security and legal communities. Then an overview of possible threats and data protection goals is given.
+
+The main part is structured in familiar way for software developers, the different phases of the application development lifecycle. For each phase, relevant aspects are highlighted and technical solutions to address certain problems are referenced.

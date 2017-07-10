@@ -2,12 +2,10 @@
 
 - [About](README.md)
 - [Introduction](Introduction.md)
-- Mobile Application Security
-  - [Pre-Implementation Phase](PreImplementationPhase.md)
-  - [Implementation Planning](ImplementationPlanning.md)
+- [Foundations](Foundations.md)
+- Application Development Lifecycle
+  - [Planning Phase](PlanningPhase.md)
   - [Implementation Phase](ImplementationPhase.md)
-- [Best Practices](BestPractices.md)
-- [Key Takeaways](KeyTakeaways.md)
-- Appendix
-  - [Bibliography](References.md)
-  - [Glossary](GLOSSARY.md)
+  - [Testing Phase](TestingPhase.md)
+  - [Maintenance Phase](MaintenancePhase.md)
+
