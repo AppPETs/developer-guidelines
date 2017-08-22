@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+------
+
+======== Alter Inhalt (ggf. übernehmen) ===========
+
 # Developer Guidelines
 
 This document describes how developers can, should, or must protect their apps for more privacy or compliance.
