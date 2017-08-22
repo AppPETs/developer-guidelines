@@ -1,3 +1,11 @@
+
+
+
+
+------
+
+======== Alter Inhalt (ggf. übernehmen) ===========
+
 # Introduction
 
 The goal of the document is to support the development of privacy-respecting applications. Most guides focus either on the legal aspects of protecting the data of end users or they focus on technical measurements to secure processed data. This document is intended to fill the gap between both worlds and should provide an overview into the different aspects that need to be respected when developing applications.
