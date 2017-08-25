@@ -1,0 +1,31 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{smartdiagram}
+\renewcommand{\familydefault}{\sfdefault}
+\tikzset{
+	every shadow/.style={
+		fill=none,
+		shadow xshift=0pt,
+		shadow yshift=0pt
+	}
+}
+\tikzset{
+	module/.append style={
+		top color=\col,
+		bottom color=\col
+	}
+}
+\smartdiagramset{
+	circular distance=3.5cm,
+	border color=none,
+	set color list={red!30,orange!25,yellow!25,green!25,blue!30,violet!30},
+}
+\begin{document}
+	\smartdiagram[circular diagram: clockwise]{%
+		Planning,
+		Analysis,
+		Design,
+		Implementation,
+		Testing,
+		Maintenance
+	}
+\end{document}

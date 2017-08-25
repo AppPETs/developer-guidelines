@@ -1,13 +1,11 @@
 # Implementation Phase
 
 - Best practices
-  - IT-security
+  - IT-Security
   - TDD
   - CI
-  - FOSS (wann ist die nutzung von FOSS Lizenzen Zielführend?)
-  - Backup strategies
-  - pentesting
+  - FOSS (Wann ist die Nutzung von FOSS Lizenzen Zielführend? → Planung?)
 - third party components / services
-  - maintained? (werden die Komponenten noch weiterentwickelt?)
+  - maintained? (Werden die Komponenten noch weiterentwickelt?)
   - privacy-respecting? (Sind die Komponenten Datenschutzkonform?)
 - if implementation differs from original design → go back to analysis phase (assumtions might have changed)
