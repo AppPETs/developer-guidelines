@@ -34,7 +34,7 @@ When using the app, even more data will be produced. This might be log data, dat
 
 ### ---------------------- verschieben nach Analysis Phase ---------------
 
-###                                                               V
+###                                                          V
 
 ### Increased Level of Protection
 
