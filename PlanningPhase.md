@@ -10,7 +10,7 @@ What will the app do for the end-user? An accurate descripition of the aim it is
 
 ### The App's Intended and Potential Use
 
-When planning an app's design, consider in what field the app shall be used. For instance, an emergency app might be intended for covering certain geographical areas, particular periods of time or predefined cases. 
+When planning an app's design, consider in what field the app shall be used. For instance, an emergency app might be intended for covering certain geographical areas, particular periods of time or predefined cases.
 
 An app might be used, though, for other purposes not intended in the first place. A firewall app can give you information about other apps' illegitimate connections to the internet. Yet it might also give end users a tool secretly to record and monitor other people's activities on the internet.
 
@@ -32,6 +32,10 @@ Specify all categories of data needed to be fed to the app or to be used to make
 
 When using the app, even more data will be produced. This might be log data, data related to payment, statistics to authorizing access or other. These will also contain personal data that require protection and thus need to be specified and assessed.
 
+### ---------------------- verschieben nach Analysis Phase ---------------
+
+###                                                               V
+
 ### Increased Level of Protection
 
 Special categories of data are placed under particular protection of the law.
@@ -48,13 +52,11 @@ In addition, where children or other persons who require particular legal protec
 
 Where the information on individuals used by the app is particularly comprehensive, exposing their conduct or characteristics, particular attention needs to be paid to the protection of those data.
 
+## -------------------------------------------------------------------
+
 ## Check Laws and Regulations applicable to your specific sector of industry
 
 ### Rights and obligations to erase the data collected
-
-
-
-
 
 =================================== Alter Inhalt ==========================================
 
