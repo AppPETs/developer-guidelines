@@ -34,8 +34,6 @@ When using the app, even more data will be produced. This might be log data, dat
 
 ### ---------------------- verschieben nach Analysis Phase ---------------
 
-###                                                          V
-
 ### Increased Level of Protection
 
 Special categories of data are placed under particular protection of the law.
