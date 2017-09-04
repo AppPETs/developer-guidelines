@@ -1,9 +1,16 @@
-# Implementation Phase
+# Implementation, testing and documenting Phase
+
+In this phase, the developers create the software code and documentation for the project.
+
+To establish and follow the best practises of software development the programmers should be aware of security and privacy recommendations.  Please refer to the “Smartphone Secure Development Guidelines for App Developers” or “Privacy and Data Protection by Design – from policy to engineering” for further information on those topics.
+
+To verify the correctness of the implementation the software should be tested. In order to detect failures of the implementation in early stages the approach of test-driven development can be used. Hereby, the developers write first the code for automated testing and implement afterwards the code to pass the described test. The single tests can be integrated into an automated test suite to validate the correctness of the entire implementation.
 
 * Best practices
   * IT-Security
   * TDD
   * CI
+  * Documentation
   * FOSS \(Wann ist die Nutzung von FOSS Lizenzen Zielführend? → Planung?\)
 * third party components / services
   * maintained? \(Werden die Komponenten noch weiterentwickelt?\)
