@@ -10,13 +10,9 @@ When several programmers work on the same code the risk of conflicting contribut
 
 A technical documentation of the code may contain information about what a code does and how it does it, its dependencies and where this code is required. These documentations are valuable for the programmers and the maintainers of a specific code base and should be written along with the implementation of the code.
 
-* Best practices
-  * FOSS \(Wann ist die Nutzung von FOSS Lizenzen Zielführend? → Planung?\)
-* third party components / services
-  * maintained? \(Werden die Komponenten noch weiterentwickelt?\)
-  * privacy-respecting? \(Sind die Komponenten Datenschutzkonform?\)
-* if implementation differs from original design → go back to analysis phase \(assumtions might have changed\)
-* 
+The use of third party code / services may be beneficial or even necessary for the implementation of a software project. The integration of such code or service into a software project comes along with additional dependencies. To sustain the quality of the software project the third party code / service should be checked whether it fulfils the given privacy and security requirements. If a third party code is no longer maintained, this can lead to security and compatibility issues. In those cases, it is recommended to self-maintain such code. Besides the technical integration of third party code / services one should verify that the licence, under which the usage of a third party code / service is allowed, integrates with the software project.
+
+If during the implementation phase challenges arise which require to deviate from the original design, this should be done by an additional iteration of the analysis phase.
 
 
 ## **The Privacy Library and Privacy-enhanced Technologies**
