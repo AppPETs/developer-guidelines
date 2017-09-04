@@ -8,11 +8,9 @@ To verify the correctness of the implementation the software should be tested. I
 
 When several programmers work on the same code the risk of conflicting contributions to the code base by different programmers arises. Those conflicts arise due to modifications of the existing code base or by adding new code and dependencies to the project. To avoid these problems a best practise known as “Continuous Integration (CI)” can be applied, where developers integrate their contributions early and often into the common code base.
 
+A technical documentation of the code may contain information about what a code does and how it does it, its dependencies and where this code is required. These documentations are valuable for the programmers and the maintainers of a specific code base and should be written along with the implementation of the code.
+
 * Best practices
-  * IT-Security
-  * TDD
-  * CI
-  * Documentation
   * FOSS \(Wann ist die Nutzung von FOSS Lizenzen Zielführend? → Planung?\)
 * third party components / services
   * maintained? \(Werden die Komponenten noch weiterentwickelt?\)
