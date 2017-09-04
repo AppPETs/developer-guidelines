@@ -6,6 +6,8 @@ To establish and follow the best practises of software development the programme
 
 To verify the correctness of the implementation the software should be tested. In order to detect failures of the implementation in early stages the approach of test-driven development can be used. Hereby, the developers write first the code for automated testing and implement afterwards the code to pass the described test. The single tests can be integrated into an automated test suite to validate the correctness of the entire implementation.
 
+When several programmers work on the same code the risk of conflicting contributions to the code base by different programmers arises. Those conflicts arise due to modifications of the existing code base or by adding new code and dependencies to the project. To avoid these problems a best practise known as “Continuous Integration (CI)” can be applied, where developers integrate their contributions early and often into the common code base.
+
 * Best practices
   * IT-Security
   * TDD
