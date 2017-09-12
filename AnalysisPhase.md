@@ -22,15 +22,19 @@
     be implemented and must include the following
 
     - Which types of personal data are accessed and why?
-    - How	will this data be used?
-    - How	will this data be stored?
-    - Which third-parties will receive access to the data and under what	conditions?
+      - How will this data be used?
+      - How will this data be stored?
+      - Which third-parties will receive access to the data and under whatconditions?
     - Statement, that collected data will be protected from unauthorized access
     - Contact data of the actual Data Protection Officer
     - Statement on how to access personal saved data as a user
     - Statement on how to initiate personal data deletion as a user
 
 - Is data leaving the main ecosystem? *(Verlassen Daten mein Ökosystem?)*
+  - deffinition of the level of data leakage
+    - is data leaving the "local boundry"
+    - is data leaving the "eco system boundry"
+    - is data leaving the "3rd party boundry"
   - service provider needs processing regulation *(Dienstleister benötigt ADV)*
 
 - Which Data needs which data protection level? *(Welche Daten benötigen welches Schutzniveau?)*
