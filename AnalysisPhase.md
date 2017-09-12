@@ -25,7 +25,7 @@
       * Which types of personal data are accessed and why?
         * How will this data be used?
         * How will this data be stored?
-        * Which third-parties will receive access to the data and under whatconditions?
+        * Which third-parties will receive access to the data and under what conditions?
       * Statement, that collected data will be protected from unauthorized access
       * Contact data of the actual Data Protection Officer
       * Statement on how to access personal saved data as a user
