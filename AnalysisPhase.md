@@ -1,14 +1,8 @@
 # Analysis Phase
 
-- Is there a need of data collection *(Müssen Daten erfasst werden?)*
+- Is there a need of data collection?
 
-  - The principle **Privacy by Design** must be taken into consideration when planning app connection behavior and collection of user data *(Sind hier AppPETs übertragungen ausgenommen?)*
-
-    - All data protection-relevant aspects related to the end user must be planned to be secure
-    - All options for ensuring data protective behavior have to be preconfigured in a way a user can not accidentally lose personal information
-    - Data access takes place in line with data economy principles
-    - Data not immediately used may not be collected
-    - Passing data to third parties requires an Opt-In from the user
+  - The principle **Privacy by Design** *(link with details to intro)* must be taken into consideration when planning app connection behavior and collection of user data
 
   - **Device-specific information** gathered has to follow some restrictions
 
@@ -17,11 +11,9 @@
     - Tracking IDs (IDFA, AAID) are transmitted in encrypted form
     - User-disabled tracking options have to be respected
 
-  - If the app is planned to process personal data, a **Privacy Policy** must
+  - If the app is planned to process personal data, a **Privacy Policy** must be implemented and must include the minimum requirements of the local data protection laws
 
-    be implemented and must include the minimum requirements of the local data protection laws
-
-    * this implies, but is not limited to:
+    * this implies, but is not limited to
       * Which types of personal data are accessed and why?
         * How will this data be used?
         * How will this data be stored?
@@ -31,34 +23,45 @@
       * Statement on how to access personal saved data as a user
       * Statement on how to initiate personal data deletion as a user
     * updated information about privacy policies can be found here
-      * https://****ADD EXTERNAL LINK HERE****
+      * https://****ADD EXTERNAL/ULD LINK HERE****
 
-- Is data leaving the main ecosystem? *(Verlassen Daten mein Ökosystem?)*
-  - deffinition of the level of data leakage
-    - is data leaving the "local boundry"
-    - is data leaving the "eco system boundry"
-    - is data leaving the "3rd party boundry"
-  - service provider needs processing regulation *(Dienstleister benötigt ADV)*
+  ### Is data leaving the main ecosystem?
 
-- Which Data needs which data protection level? *(Welche Daten benötigen welches Schutzniveau?)*
-  - no protection necessary *(nicht schützenswert und ohne personenbezug)*
-  - protection necessary *(Personenbeziehbar und personenbezogen)*
-  - processing not suggested / sensitive data *(sensible Daten)* 
-  - porcessing prohibited / dangerous data *(Klassifikation nach Gefahr für Leib & Leben)*
+  - definition of the level of data leakage
+    - is data leaving the "local boundary"
+    - is data leaving the "eco system boundary"
+    - is data leaving the "3rd party boundary"
+  - service provider needs data processing contract *(german ADV)*
 
-- Is data used that must me able to be deleted by user demand?
+  ### Which data needs which level of protection?
 
-  - a  routine must be implemented to ensure full user data deletion on demand
+  0. no personal reference: no protection necessary
+
+  1. person related or relatable: protection necessary
+
+  2. sensitive data: processing not recommended
+
+  3. dangerous data: processing prohibited
+
+     ​
+
+  ### Is data used that must be deletable on user demand? (@ULD: which data is affected)
+
+  - a  routine must be implemented to ensure full deletion of user data on demand
     - all saved data from the user must be deletable
-    - this applies also to cloud-saved user data
-    - if no routine is implemented, user is provided storage server provider contact data to send a data deletion request
+    - this applies also to data stored in the cloud
+    - if no such routine is implemented, the user is provided with contact data to send a deletion request
 
-- affected person especially protected? *(betroffene Schützenswert? Kinder etc.)*
+  ### Special protection
 
-==> Risk Assessment *(Risikobewertung)*
+- are persons with special protection needs concerned? *(was dann @ULD? betroffene Schützenswert? Kinder etc.)*
 
-- all processed dates need to be investigated to elevate a risk level of potential malisous use of the dates
-  - based on these risk levels special protection routines need to be used *(hier ggf. standardisierte Risk-LEvel definieren, benennen oder verweisen)* 
+## Risk Assessment
+
+(@Introduction.md - after each Development Phase the risk needs to be reassessed)
+
+- all processed data needs to be analysed to specify a risk level of potential malicious use of the data
+  - based on these risk levels special protection routines need to be applied *(hier auf standardisierte Risk-Level verweisen @ULD habt ihr da was?)* 
 
 
 
