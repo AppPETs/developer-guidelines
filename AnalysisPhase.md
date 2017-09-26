@@ -35,6 +35,8 @@
 
   ### Which data needs which level of protection?
 
+  Special categories of data are placed under particular protection of the law.
+
   0. no personal reference: no protection necessary
 
   1. person related or relatable: protection necessary
