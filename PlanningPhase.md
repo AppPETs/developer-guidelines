@@ -35,10 +35,6 @@ When using the app, even more data will be produced. This might be user content 
 
 ### ---------------------- verschieben nach Analysis Phase ---------------
 
-### Increased Level of Protection
-
-Special categories of data are placed under particular protection of the law.
-
 #### Sensitive data
 
 Amongst these are personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation. These data generally may only be used where the data subject has given explicit consent regarding these very categories of information.
