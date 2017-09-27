@@ -33,19 +33,6 @@ Specify all categories of data needed to be fed to the app or to be used to make
 
 When using the app, even more data will be produced. This might be user content (e.g. messages), log data, data related to payment, statistics to authorizing access or other. These will also contain personal data that require protection and thus need to be specified and assessed.
 
-### ---------------------- verschieben nach Analysis Phase ---------------
-
-#### Sensitive data
-
-Amongst these are personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation. These data generally may only be used where the data subject has given explicit consent regarding these very categories of information.
-
-#### Individuals in need of special protection
-
-In addition, where children or other persons who require particular legal protection are involved, the processing of data might be more restricted than otherwise.
-
-#### Extend of data used
-
-Where the information on individuals used by the app is particularly comprehensive, exposing their conduct or characteristics, particular attention needs to be paid to the protection of those data.
 
 ## -------------------------------------------------------------------
 

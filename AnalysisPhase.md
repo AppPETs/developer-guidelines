@@ -33,7 +33,7 @@
     - is data leaving the "3rd party boundary"
   - service provider needs data processing contract *(german ADV)*
 
-  ### Which data needs which level of protection?
+  ### Which data needs which level of protection? 
 
   Special categories of data are placed under particular protection of the law.
 
@@ -45,7 +45,15 @@
 
   3. dangerous data: processing prohibited
 
-     ​
+     ​#### Sensitive Data
+
+(REM: Ergänzungen vielleicht in eine Art Kasten)  
+Amongst these are personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation. These data generally may only be used where the data subject has given explicit consent regarding these very categories of information.
+
+#### Extend of data used
+
+(REM: Ergänzungen vielleicht in eine Art Kasten)  
+Where the information on individuals used by the app is particularly comprehensive, exposing their conduct or characteristics, particular attention needs to be paid to the protection of those data.
 
   ### Is data used that must be deletable on user demand? (@ULD: which data is affected)
 
@@ -57,6 +65,9 @@
   ### Special protection
 
 - are persons with special protection needs concerned? *(was dann @ULD? betroffene Schützenswert? Kinder etc.)*
+
+(REM: Ergänzeungen vielleicht in eine Art Kasten)
+For instance if children or other persons who require particular legal protection are involved, the processing of data might be more restricted than otherwise.
 
 ## Risk Assessment
 
