@@ -10,6 +10,7 @@ The successfull completion of the design phase should include:
 * Transformation of **all** requirements into detailed specifications covering **all** aspects of the system
 * Assessment and planning of security risks
 * Assessment and planning of privacy risks
+(DG: noch andere Risiken?)
 
 ## Deliverables
 
@@ -54,7 +55,16 @@ Complete the threat models for all functionality identified during the analysis 
   * If remote: what are possible potential privacy leaks
 
 ## Problems
-* Data recieving problematically? (Datenabruf problematisch? (Metadata & PKR))
+*(technische Umsetzung der Datentransfers)*
+*(welche Umsetzungsmöglichkeiten habe ich, und welche varianten sind hier datenschutzfreundlicher.)*
+*(zB Vermeidung eines jeden Datenabflusses, hier gute Beispiele einbringen: Wetterapp, genau oder ungenau, nächste Wetterstation, Rasterung, etc)*
+*(-> Designentscheidungen sollen hier wohl überlegt sein.)*
+*(Bewertung lieber nicht, weil alle Daten sensibel sind??)*
+*(-> nur wenn nötig nur für den bestimmten zweck und nur möglichst sicher verarbeitet....)*
+*(als App-Entwickler weiss man gar nicht wo am Ende aggregierte Daten verwendet werden)*
+
+* Data receiving problematically? (Datenabruf problematisch? (Metadata & PKR))
+*(technisch umsetzbar / machbar?)*
 
 * Data sending problematically? (Datenversand problematisch?)
 
@@ -72,6 +82,10 @@ Possible counter measures include:
 * Cryptography
 * Anonymisation
 * Pseudonymisation
+ 
+*(-> PLib (!) Beispiele sind hier ein guter Anknüpfungspunkt)*
+
+**(an jedem Schritt des Design möglichst überlegen wie man hier datenschutzfreundlich umsetzen kann...)**
 
 TODO: Add links and examples
 
