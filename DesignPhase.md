@@ -70,7 +70,7 @@ Complete the threat models for all functionality identified during the analysis 
 
 * Data processing problematically? (Datenverarbeitung problematisch?)
 
-* Interaction with 3rd parties? (Interaktion mit dritten? (z.B. beim Bezalvorgang)) 
+* Interaction with 3rd parties? (Interaktion mit dritten? (z.B. beim Bezahlvorgang)) 
   * No? (z.B. bei Bezahlvorgang (Barzahlung = unproblematisch))
   * Yes? (z.B. beim Bezahlvorgang (paypal / Kreditinstitut etc.))
     * back to point -> "how can the following steps possibly help?"
