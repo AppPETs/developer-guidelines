@@ -22,8 +22,8 @@
       * Contact data of the actual Data Protection Officer
       * Statement on how to access personal saved data as a user
       * Statement on how to initiate personal data deletion as a user
-    * updated information about privacy policies can be found here
-      * https://****ADD EXTERNAL/ULD LINK HERE****
+    * extended information about privacy policies etc. can be found here
+      * https://www.enisa.europa.eu/
 
   ### Is data leaving the main ecosystem?
 
@@ -39,11 +39,21 @@
 
   0. no personal reference: no protection necessary
 
+      ​	consequences on usage = no consequences, no abuse possible
+
   1. person related or relatable: protection necessary
+
+     ​	consequences on usage = displeasing consequences, abuse possible
 
   2. sensitive data: processing not recommended
 
+     ​	consequences on usage =  unwanted consequences, can be used against individual
+
   3. dangerous data: processing prohibited
+
+     ​	consequences on usage = threat to life or freedom of individual
+
+     ​
 
      ​#### Sensitive Data
 
@@ -66,7 +76,7 @@ Where the information on individuals used by the app is particularly comprehensi
 
 - are persons with special protection needs concerned? *(was dann @ULD? betroffene Schützenswert? Kinder etc.)*
 
-(REM: Ergänzeungen vielleicht in eine Art Kasten)
+(REM: Ergänzeungen vielleicht in einer art Kasten)
 For instance if children or other persons who require particular legal protection are involved, the processing of data might be more restricted than otherwise.
 
 ## Risk Assessment
