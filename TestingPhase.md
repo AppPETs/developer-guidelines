@@ -2,6 +2,8 @@
 
 During the testing phase the software is tested in various ways to ensure all features work as intended and the overall quality is as intended. This section covers the testing processes, which are specifically designed to test against weaknesses in the software, that might lead to data leaks or a violation of the privacy of the user.
 
+* standard QM/QA steps to acomplish development quality
+
 ## Penetration tests
 
 Penetration tests are a set of tests for software applications or specific hardware components such as networks. The goal of these tests is to find security holes in the interfaces between the system and the user. The tests are performed from the perspective of a potential attacker from the outside of the system. It is a so called black-box test and can usually be performed with the help of automated tools.
