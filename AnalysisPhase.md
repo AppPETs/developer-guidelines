@@ -3,15 +3,18 @@
 - Is there a need of data collection?
 
   - The principle **Privacy by Design** *(link with details to intro)* must be taken into consideration when planning app connection behavior and collection of user data
+*(Ausführen)*
 
   - **Device-specific information** gathered has to follow some restrictions
 
     - Unique identifiers (UDID, IMEI, MAC addresses etc.) are obtained only after an user-confirmed Opt-In and only if they are necessary for the specific purpose
     - Unique identifiers are not used for individual user tracking
-    - Tracking IDs (IDFA, AAID) are transmitted in encrypted form
-    - User-disabled tracking options have to be respected
+    - Tracking IDs (IDFA, AAID) are transmitted in encrypted form *(sollte eigentlich gar nicht drin sein, in irgendeiner Form wird es aber dennoch einfließen.)*
+    - User-disabled tracking options have to be respected *(das ist aber nur opt out, ist an anderer Stelle vielleicht schon erwähnt, also hier nochmal stärker machen - kann auch in aderer Form erwähnt werden, aber ist eben wichtig hier unseren Fokus zu schärfen)*
 
   - If the app is planned to process personal data, a **Privacy Policy** must be implemented and must include the minimum requirements of the local data protection laws
+*(Daten auf dem Gerät sind immer auch möglicherweise personalisierbar ... -> grundsätzlich immer möglich Daten für Rückschlüsse nutzbar? -> Datenminimierung)*
+*(keine minimale Compliance, sondern ordentlicher Datenschutz)*
 
     * this implies, but is not limited to
       * Which types of personal data are accessed and why?
@@ -22,8 +25,10 @@
       * Contact data of the actual Data Protection Officer
       * Statement on how to access personal saved data as a user
       * Statement on how to initiate personal data deletion as a user
-    * extended information about privacy policies etc. can be found here
-      * https://www.enisa.europa.eu/
+      * extended information about privacy policies etc. can be found here
+        * https://www.enisa.europa.eu/
+*(hier einfach die basalen Punkte, (die zeitlos sind) übernehmen*
+
 
   ### Is data leaving the main ecosystem?
 
@@ -32,16 +37,18 @@
     - is data leaving the "eco system boundary"
     - is data leaving the "3rd party boundary"
   - service provider needs data processing contract *(german ADV)*
+*(auch die Auftrragsdatenverarbeiter verpflichten auf Datenschutzprinzipien)*
 
   ### Which data needs which level of protection? 
 
   Special categories of data are placed under particular protection of the law.
 
-  0. no personal reference: no protection necessary
+  0. no personal reference: no protection necessary *(gibt es eigentlich nicht)* *(alterativ: Folgen der Ausnutzung? -> Keine Folgen)*
 
       ​	consequences on usage = no consequences, no abuse possible
 
   1. person related or relatable: protection necessary
+
 
      ​	consequences on usage = displeasing consequences, abuse possible
 
@@ -50,8 +57,9 @@
      ​	consequences on usage =  unwanted consequences, can be used against individual
 
   3. dangerous data: processing prohibited
+*(was ist da genau gemeint, Gefahr für Leib und Leben? / streichen?)* 
 
-     ​	consequences on usage = threat to life or freedom of individual
+     ​	*consequences on usage = threat to life or freedom of individual*
 
      ​
 
@@ -66,6 +74,7 @@ Amongst these are personal data revealing racial or ethnic origin, political opi
 Where the information on individuals used by the app is particularly comprehensive, exposing their conduct or characteristics, particular attention needs to be paid to the protection of those data.
 
   ### Is data used that must be deletable on user demand? (@ULD: which data is affected)
+*(grundsätzlich immer)*
 
   - a  routine must be implemented to ensure full deletion of user data on demand
     - all saved data from the user must be deletable
@@ -82,6 +91,8 @@ For instance if children or other persons who require particular legal protectio
 ## Risk Assessment
 
 (@Introduction.md - after each Development Phase the risk needs to be reassessed)
+*(kommt in DesignPhase nochmal, vornehmen anhand der oben genannten Kriterien)*
+*(was für Risiken eigentlich? was wird vom Entwickler erwartet?)*
 
 - all processed data needs to be analysed to specify a risk level of potential malicious use of the data
   - based on these risk levels special protection routines need to be applied *(hier auf standardisierte Risk-Level verweisen @ULD habt ihr da was?)* 

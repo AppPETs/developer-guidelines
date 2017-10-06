@@ -19,3 +19,8 @@ Es gibt noch so ein paar Tests, die in sicherheitskritischer Software häufig ei
 - Data flow testing?
 - Control flow testing?
 - Modified condition/decision coverage testing?
+
+
+*(Dinge zusammenfassen, konkret was soll die Entwicklerin hier eigentlich machen.)*
+*(QM, QA)*
+
