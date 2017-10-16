@@ -9,6 +9,5 @@
 **TODO**
 
 - [ ] Add overview
-- [ ] Flow should be clockwise
 - [ ] add the fact that specific points need to be changed during the development lifecycle regarding to the processed data and local regulations
 - [ ] add information about changes in the process through the usage of the AppPETs Library
