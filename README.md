@@ -1,20 +1,16 @@
+# Developer Guidelines for privacy aware mobile apps
 
+**TODO:** add logo
 
+This document outlines basic aspects of mobile apps which should be considered for writing mobile apps in order to build privacy protection into the apps.
 
+We are convinced that **privacy protection is an attractive feature** and can attract addtional users. We aim on providing **easy to implement** privacy features **without limiting** the functions of your app.
 
+Basic concepts of privacy problems and how to address them using privacy enhancing technologies (PETs) are combined with legal hints how you comply with data protection law, i.e. the new european data protection regulation.
 
+The guideline is work in progress and written as part of the [APPpets](http://app-pets.org/home/) project. Contributions, feedback and discussion is welcomed.
 
-
-
-
-
-------
-
-======== Alter Inhalt (ggf. übernehmen) ===========
-
-# Developer Guidelines
-
-This document describes how developers can, should, or must protect their apps for more privacy or compliance.
+To get an overview of the developer guidelines document have a look at the [introduction](./Introduction.md)
 
 ## Contribution
 
@@ -22,6 +18,7 @@ This document describes how developers can, should, or must protect their apps f
 
 * Reading / Link for sharing: [https://blochberger.gitbooks.io/developer-guidelines](https://blochberger.gitbooks.io/developer-guidelines)
 * Issues/Discussions: [https://www.gitbook.com/book/blochberger/developer-guidelines/discussions](https://www.gitbook.com/book/blochberger/developer-guidelines/discussions)
+    * **[move to apppets repository?]**
 * Github repository: [https://github.com/blochberger/developer-guidelines](https://github.com/blochberger/developer-guidelines) (automatically synched with Gitbook repository)
 * Gitbook repository: [https://gitbook.com/book/blochberger/developer-guidelines](https://gitbook.com/book/blochberger/developer-guidelines) (automatically synched with Github repository)
 
