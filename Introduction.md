@@ -1,3 +1,30 @@
+# Introduction
+
+The goal of the document is to support the development of privacy-respecting applications. Most guides focus either on the legal aspects of protecting the data of end users or they focus on technical measurements to secure processed data. This document is intended to fill the gap between both worlds and should provide an overview into the different aspects that need to be respected when developing applications.
+
+Depending on the usage scenario, different protection goals are relevant. Not respecting certain aspects for certain scenarios might lead to legal consequences.
+
+As the goal of the document is to act as an interface between technical solutions and legal aspects, references to both are given. The legal aspects in this document are based on the *General Data Protection Regulation* (GDPR), which becomes effective in May 25, 2018.
+
+## Document Structure
+![Application Development Lifecycle](figures/applifecycle.svg)
+
+**TODO:** Application Development Lifecylce hier integrieren.
+
+* [PlanningPhase.md](./PlanningPhase.md)
+
+* [AnalysisPhase.md](./AnalysisPhase.md)
+
+* [DesignPhase.md](./DesignPhase.md)
+
+* [ImplementationPhase.md](./ImplementationPhase.md)
+
+* [TestingPhase.md](./TestingPhase.md)
+
+* [MaintenancePhase.md](./MaintenancePhase.md)
+
+* [ApplicationDevelopmentLifecycle.md](./ApplicationDevelopmentLifecycle.md)
+
 ## Definition of common used terms
 
 ### **Privacy by Design & Default**
@@ -17,13 +44,6 @@ after each Development Phase the risk needs to be reassessed
 
 ======== Alter Inhalt (ggf. übernehmen) ===========
 
-# Introduction
-
-The goal of the document is to support the development of privacy-respecting applications. Most guides focus either on the legal aspects of protecting the data of end users or they focus on technical measurements to secure processed data. This document is intended to fill the gap between both worlds and should provide an overview into the different aspects that need to be respected when developing applications.
-
-Depending on the usage scenario, different protection goals are relevant. Not respecting certain aspects for certain scenarios might lead to legal consequences.
-
-As the goal of the document is to act as an interface between technical solutions and legal aspects, references to both are given. The legal aspects in this document are based on the *General Data Protection Regulation* (GDPR), which becomes effective in May 25, 2018.
 
 **TODO**: Explain that the referenced technical solutions are what is considered "state-of-the-art" – which is a fuzzy term in a legal context.
 
