@@ -74,15 +74,16 @@ DISCUSSION SPACE
 
 TODO:
 
- [ ] add descriptions and definitions of basic concepts used during the DevGL
+- [ ] add descriptions and definitions of basic concepts used during the DevGL
 
- [ ] Explain that the referenced technical solutions are what is considered "state-of-the-art" – which is a fuzzy term in a legal context.
+- [ ] Explain that the referenced technical solutions are what is considered "state-of-the-art" – which is a fuzzy term in a legal context.
 
- [ ] We could also reference developer guidelines from Google/Apple (see [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)) and mention that non-compliance with certain aspects might not only lead to legal consequences but also to rejecting for a market place (at least that is the case for Apple's App Store). Reason behind this: Developers might not fear legal consequences but rejection, because legal consequences might not appear imminent to them, e.g., if they are not directly responsible and think their boss/lawyers will handle it.
+- [ ] We could also reference developer guidelines from Google/Apple (see [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)) and mention that non-compliance with certain aspects might not only lead to legal consequences but also to rejecting for a market place (at least that is the case for Apple's App Store). Reason behind this: Developers might not fear legal consequences but rejection, because legal consequences might not appear imminent to them, e.g., if they are not directly responsible and think their boss/lawyers will handle it.
 
- [ ] We could make the document more interesting if we "promise" to discuss how some analytics or advertisement could be realized in a privacy-friendly manner. Developers might think that "privacy = less functionality" and refrain from reading the document based on that prejudice.
+- [ ] We could make the document more interesting if we "promise" to discuss how some analytics or advertisement could be realized in a privacy-friendly manner. Developers might think that "privacy = less functionality" and refrain from reading the document based on that prejudice.
 
- [ ] How do we want to handle the separation of Business to Customer (B2C), Business to Employee (B2E), and Business to Business (B2B)? I suggest that the discussion of certain aspects should clarify the relevant context.
+- [ ] How do we want to handle the separation of Business to Customer (B2C), Business to Employee (B2E), and Business to Business (B2B)? I suggest that the discussion of certain aspects should clarify the relevant context.
 
- [ ] Is Mobile Device Management (MDM) relevant?
+- [ ] Is Mobile Device Management (MDM) relevant?
+
 
