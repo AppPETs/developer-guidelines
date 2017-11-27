@@ -1,4 +1,4 @@
-# Developer guidelines for privacy aware mobile apps
+# Developer Guidelines for Privacy Aware Mobile Apps
 
 **TODO:** add logo
 
@@ -15,7 +15,7 @@ To get an overview of the developer guidelines document have a look at the **[In
 
 ## Contribution
 
-### Places of interest:
+### Places of Interest:
 
 * Reading / Link for sharing: [https://blochberger.gitbooks.io/developer-guidelines](https://blochberger.gitbooks.io/developer-guidelines)
 * Issues/Discussions: [https://www.gitbook.com/book/blochberger/developer-guidelines/discussions](https://www.gitbook.com/book/blochberger/developer-guidelines/discussions)
