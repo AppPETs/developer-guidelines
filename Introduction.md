@@ -82,7 +82,7 @@ TODO:
 
  [ ] We could make the document more interesting if we "promise" to discuss how some analytics or advertisement could be realized in a privacy-friendly manner. Developers might think that "privacy = less functionality" and refrain from reading the document based on that prejudice.
 
-**TODO**: How do we want to handle the separation of Business to Customer (B2C), Business to Employee (B2E), and Business to Business (B2B)? I suggest that the discussion of certain aspects should clarify the relevant context.
+ [ ] How do we want to handle the separation of Business to Customer (B2C), Business to Employee (B2E), and Business to Business (B2B)? I suggest that the discussion of certain aspects should clarify the relevant context.
 
-**TODO**: Is Mobile Device Management (MDM) relevant?
+ [ ] Is Mobile Device Management (MDM) relevant?
 
