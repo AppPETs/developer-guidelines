@@ -35,7 +35,7 @@ When planning the application design, consider not which purpose you design the 
 
 A privacy-friendly app will only include functionality and permissions that is needed to serve the purpose determined in the beginning. 
 
-**Think about which permissions are essential for providing the functionality.**
+**Think carefully about which permissions are essential for providing the functionality.**
 
 *An app providing location based services does not need to access the device's microphone to do so.*
 
@@ -44,14 +44,13 @@ Ideally any permissions that are not strictly necessary to serve the intended pu
 
 ## Defining the sort of data to be used
 
-### Primary Data
+There are different categories of data which are relevant for the use of the app.
 
-Specify all categories of data needed to be fed to the app or to be used to make it work. This may be data related to the end-user or to other data subjects concerned. Apart from personal data, consider content data needed.
+ - **Primary Data**: Data related to the end-user or to other data subjects concerned. Apart from personal data, consider content data needed.
 
-### Secondary Data
+ - **Secondary Data**: Data will be produced during the app is running. This might be user content (e.g. messages), log data, data related to payment, statistics to authorizing access or other. These will also contain personal data that require protection and thus need to be specified and assessed.
 
-When using the app, even more data will be produced. This might be user content (e.g. messages), log data, data related to payment, statistics to authorizing access or other. These will also contain personal data that require protection and thus need to be specified and assessed.
-
+ - [ ] what's the use of the differentiation of primary/secondary data here?
 
 ## -------------------------------------------------------------------
 
