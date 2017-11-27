@@ -1,4 +1,4 @@
-# Developer Guidelines for privacy aware mobile apps
+# Developer guidelines for privacy aware mobile apps
 
 **TODO:** add logo
 
@@ -8,9 +8,10 @@ We are convinced that **privacy protection is an attractive feature** and can at
 
 Basic concepts of privacy problems and how to address them using privacy enhancing technologies (PETs) are combined with legal hints how you comply with data protection law, i.e. the new european data protection regulation.
 
-The guideline is work in progress and written as part of the [APPpets](http://app-pets.org/home/) project. Contributions, feedback and discussion is welcomed.
+The guideline is work in progress and written as part of the [APPpets](http://app-pets.org/home/) project (funded by the German [Federal Ministry of Education and Research](https://www.bmbf.de/en/index.html)). Contributions, feedback and discussion is welcomed.
 
-To get an overview of the developer guidelines document have a look at the [introduction](./Introduction.md)
+## Table of content
+To get an overview of the developer guidelines document have a look at the **[Introduction](./Introduction.md)**
 
 ## Contribution
 
