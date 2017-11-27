@@ -25,11 +25,6 @@ For this functions certain user data might be necessary or useful like geo-data 
 
 When planning the application design, consider not which purpose you design the app for but also take into account that users might find alternative ways to use the app which can have an impact on other users of the device.
 
-~~in what context the app shall be used. 
-For instance, an emergency alert app might be intended for covering certain geographical areas, particular periods of time or predefined cases.~~ 
-~~An app might be used, though, for other purposes not intended in the first place. ~~
-
-
 *For examle a firewall app can give you information about other apps' illegitimate connections to the internet. Yet it might also give end users a tool to secretly record and monitor other users' internet activities.*
 
 **Be creative about potentially harmful ways to use of your app. Think about safeguards against illegitimate uses.**
@@ -44,7 +39,7 @@ A privacy-friendly app will only include functionality and permissions that is n
 
 *An app providing location based services does not need to access the device's microphone to do so.*
 
-Any functionality that is not strictly necessary to serve the intended purpose requires additional and explicit consent by the end-user. (Kommentar: Sollte die nicht ganz raus, bzw. sollten Zusatzfunktionen mit notwendigen Zugriffsrechten optional sein, und Funktionen / Zugriffsrechte, die nicht selbsterlärend sind erklärt werden?)
+Ideally any permissions that are not strictly necessary to serve the intended purpose should be avoided. Any need for permissions must be explained and justified in a comprehensible way. Take into account that users have no deeper understanding of the dependencies and technical necessities. Only if they really understand why and how the permission is used they can actually give a real consent.
 
 
 ## Defining the sort of data to be used
