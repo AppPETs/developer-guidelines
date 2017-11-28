@@ -6,10 +6,10 @@
 
 What will the app do for the end-user? It might seem obvious, but **it is a good start to take a moment and reconsider what the actual aim of the app is**.
 
-- Which functions should the app provide and 
-- which user data is necessary for the planned functionality.  
+- Which functions should the app provide and
+- which user data is necessary for the planned functionality.
 
-Especially it is important to carefully think which user data is needed and how it will be processed. 
+Especially it is important to carefully think which user data is needed and how it will be processed.
 
 - [ ] add textbox about purpose binding?
 
@@ -33,7 +33,7 @@ When planning the application design, consider not which purpose you design the 
 
 ## Defining the App's Functionality and Permissions
 
-A privacy-friendly app will only include functionality and permissions that is needed to serve the purpose determined in the beginning. 
+A privacy-friendly app will only include functionality and permissions that is needed to serve the purpose determined in the beginning.
 
 **Think carefully about which permissions are essential for providing the functionality.**
 

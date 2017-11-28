@@ -17,8 +17,7 @@ The legal aspects in this document are based on the *General Data Protection Reg
 
 
 ## Document Structure
-The guideline is separated in a number of steps which are usually taken into account during application development. Some guidelines use a different wording, but the process should look familiar or should at least  be easy to adopt 
-.
+The guideline is separated in a number of steps which are usually taken into account during application development. Some guidelines use a different wording, but the process should look familiar or should at least be easy to adopt.
 
 ![Application Development Lifecycle](figures/applifecycle.svg)
 
