@@ -6,10 +6,10 @@
 
 What will the app do for the end-user? It might seem obvious, but **it is a good start to take a moment and reconsider what the actual aim of the app is**.
 
-- Which functions should the app provide and 
-- which user data is necessary for the planned functionality.  
+- Which functions should the app provide and
+- which user data is necessary for the planned functionality.
 
-Especially it is important to carefully think which user data is needed and how it will be processed. 
+Especially it is important to carefully think which user data is needed and how it will be processed.
 
 - [ ] add textbox about purpose binding?
 
@@ -25,7 +25,7 @@ For this functions certain user data might be necessary or useful like geo-data 
 
 When planning the application design, consider not which purpose you design the app for but also take into account that users might find alternative ways to use the app which can have an impact on other users of the device.
 
-*For examle a firewall app can give you information about other apps' illegitimate connections to the internet. Yet it might also give end users a tool to secretly record and monitor other users' internet activities.*
+*For example a firewall app can give you information about other apps' illegitimate connections to the internet. Yet it might also give end users a tool to secretly record and monitor other users' internet activities.*
 
 **Be creative about potentially harmful ways to use of your app. Think about safeguards against illegitimate uses.**
 
@@ -33,7 +33,7 @@ When planning the application design, consider not which purpose you design the 
 
 ## Defining the App's Functionality and Permissions
 
-A privacy-friendly app will only include functionality and permissions that is needed to serve the purpose determined in the beginning. 
+A privacy-friendly app will only include functionality and permissions that is needed to serve the purpose determined in the beginning.
 
 **Think carefully about which permissions are essential for providing the functionality.**
 
@@ -50,7 +50,7 @@ There are different categories of data which are relevant for the use of the app
  - **Primary Data**: Data related to the end-user or to other data subjects concerned. Apart from personal data, consider content data needed.
  - [ ] is content data different from user generated data?
 
- - **Secondary Data**: Data will be produced during the app is running. This might be user content (e.g. messages), log data, data related to payment, statistics to authorizing access or other. These will also contain personal data that require protection and thus need to be specified and assessed.
+ - **Secondary Data**: Data will be produced while the app is running. This might be user content (e.g. messages), log data, data related to payment, statistics to authorizing access or other. These will also contain personal data that require protection and thus need to be specified and assessed.
 
  - [ ] what's the use of the differentiation of primary/secondary data here?
 

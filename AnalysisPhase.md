@@ -45,7 +45,7 @@ It must be taken into account that **Device-specific information** is subject to
   - service provider needs data processing contract *(german ADV)*
 *(auch die Auftrragsdatenverarbeiter verpflichten auf Datenschutzprinzipien)*
 
-  ### Which data needs which level of protection? 
+  ### Which data needs which level of protection?
 
   Special categories of data are placed under particular protection of the law.
 
@@ -60,10 +60,10 @@ It must be taken into account that **Device-specific information** is subject to
 
   2. sensitive data: processing not recommended
 
-     ​	consequences on usage =  unwanted consequences, can be used against individual
+     ​	consequences on usage = unwanted consequences, can be used against individual
 
   3. dangerous data: processing prohibited
-*(was ist da genau gemeint, Gefahr für Leib und Leben? / streichen?)* 
+*(was ist da genau gemeint, Gefahr für Leib und Leben? / streichen?)*
 
      ​	*consequences on usage = threat to life or freedom of individual*
 
@@ -71,18 +71,18 @@ It must be taken into account that **Device-specific information** is subject to
 
      ​#### Sensitive Data
 
-(REM: Ergänzungen vielleicht in eine Art Kasten)  
+(REM: Ergänzungen vielleicht in eine Art Kasten)
 Amongst these are personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation. These data generally may only be used where the data subject has given explicit consent regarding these very categories of information.
 
 #### Extend of data used
 
-(REM: Ergänzungen vielleicht in eine Art Kasten)  
+(REM: Ergänzungen vielleicht in eine Art Kasten)
 Where the information on individuals used by the app is particularly comprehensive, exposing their conduct or characteristics, particular attention needs to be paid to the protection of those data.
 
   ### Is data used that must be deletable on user demand? (@ULD: which data is affected)
 *(grundsätzlich immer)*
 
-  - a  routine must be implemented to ensure full deletion of user data on demand
+  - a routine must be implemented to ensure full deletion of user data on demand
     - all saved data from the user must be deletable
     - this applies also to data stored in the cloud
     - if no such routine is implemented, the user is provided with contact data to send a deletion request
@@ -101,7 +101,7 @@ For instance if children or other persons who require particular legal protectio
 *(was für Risiken eigentlich? was wird vom Entwickler erwartet?)*
 
 - all processed data needs to be analysed to specify a risk level of potential malicious use of the data
-  - based on these risk levels special protection routines need to be applied *(hier auf standardisierte Risk-Level verweisen @ULD habt ihr da was?)* 
+  - based on these risk levels special protection routines need to be applied *(hier auf standardisierte Risk-Level verweisen @ULD habt ihr da was?)*
 
 
 

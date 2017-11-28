@@ -15,7 +15,7 @@ The successfull completion of the design phase should include:
 ## Deliverables
 
 * Architecture document
-* Planning of test cases and testing schedules 
+* Planning of test cases and testing schedules
 * Data security risk assessment and mitigations
   * Where no mitigations are given, justification for the acceptance of security risks is necessary
 * Privacy risk assessment and mitigations justification for the acceptance ofprivacy risks is necessary
@@ -24,7 +24,7 @@ The successfull completion of the design phase should include:
 # Design activities
 
 ## System Architecture
-The system's architecture should give an overview of all physical and logical components of the system and how they interact with each other, 
+The system's architecture should give an overview of all physical and logical components of the system and how they interact with each other,
 *(DG: including the data flows(?))*
 
 ## Perform Risk Management
@@ -34,7 +34,7 @@ Threats and vulnerabilities that exist in the project’s environment or that re
 ###Code that was created by external development groups in either source or object form.
 It is very important to evaluate carefully any code from sources external to your team. Failure to do so might cause security vulnerabilities about which the project team is unaware.
 
-###Threat models that include all legacy code if the project is a new release of an existing program. 
+###Threat models that include all legacy code if the project is a new release of an existing program.
 Such code could have been written before much was known about software security, and therefore could contain vulnerabilities.
 *(DG:wording/explain)*
 
@@ -76,19 +76,19 @@ Questions that should be addressed during the Privacy Risk Assessment:
 
 * Data processing problematically? (Datenverarbeitung problematisch?)
 
-* Interaction with 3rd parties? (Interaktion mit dritten? (z.B. beim Bezahlvorgang)) 
+* Interaction with 3rd parties? (Interaktion mit dritten? (z.B. beim Bezahlvorgang))
   * No? (z.B. bei Bezahlvorgang (Barzahlung = unproblematisch))
   * Yes? (z.B. beim Bezahlvorgang (paypal / Kreditinstitut etc.))
     * back to point -> "how can the following steps possibly help?"
 
 ## Technical Measures
 Which technical measures can be applied to address the identified risks.
-Possible counter measures include: 
+Possible counter measures include:
 
 * Cryptography
 * Anonymisation
 * Pseudonymisation
- 
+
 *(-> PLib (!) Beispiele sind hier ein guter Anknüpfungspunkt)*
 
 **(an jedem Schritt des Design möglichst überlegen wie man hier datenschutzfreundlich umsetzen kann...)**
@@ -103,14 +103,14 @@ Organisational measures include:
 * Intervenability
   * Means for the end user to delete and modify data
   * which extend functionality is necessary
-  * contact person 
+  * contact person
 * Availability
   * SDM (Standard Datenschutz Modell)
 * Data minimisation
 
 TODO: Add links and examples
 
-# TODO: 
+# TODO:
 * licence of SDL documents
 
 # Sources

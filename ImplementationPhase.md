@@ -4,7 +4,7 @@ In this phase, the developers create the software code and documentation for the
 
 ## Established Best Practices
 
-To establish and follow the best practises of software development the programmers should be aware of security and privacy recommendations.  Please refer to the “Smartphone Secure Development Guidelines for App Developers” or “Privacy and Data Protection by Design – from policy to engineering” for further information on those topics. (LINKS)
+To establish and follow the best practises of software development the programmers should be aware of security and privacy recommendations. Please refer to the “Smartphone Secure Development Guidelines for App Developers” or “Privacy and Data Protection by Design – from policy to engineering” for further information on those topics. (LINKS)
 
 ### Test-Driven Development
 
@@ -39,11 +39,11 @@ The plib can be regarded as a **privacy data flow coordinator for data**, which 
 
 ### **Pre-conditions and assumptions**
 
-Although we believe that developers, which integrate the plib into the development process, do not have bad intentions, the only **trust is given to methods of the plib** during an audit process. With this, from the perspective of a developer we can argue that methods of the plib can be regarded as trustworthy black boxes without the influence of the app developer itself. 
+Although we believe that developers, which integrate the plib into the development process, do not have bad intentions, the only **trust is given to methods of the plib** during an audit process. With this, from the perspective of a developer we can argue that methods of the plib can be regarded as trustworthy black boxes without the influence of the app developer itself.
 
-**The app audit in combination of the plib has to proof the self-determination of the app's user about his private data.** Self-determination about the data means, that the runtime user has not only knowledge about private, from others interpretable data flows, he should have furthermore the ability to prevent such data flows, if desired. This proof, given by the audit process can only apply for the app implementation and third components, where the functionalities of those components are well-known and trustful, for example so-called remote privacy services \(pservices\). 
+**The app audit in combination of the plib has to proof the self-determination of the app's user about his private data.** Self-determination about the data means, that the runtime user has not only knowledge about private, from others interpretable data flows, he should have furthermore the ability to prevent such data flows, if desired. This proof, given by the audit process can only apply for the app implementation and third components, where the functionalities of those components are well-known and trustful, for example so-called remote privacy services \(pservices\).
 
-In order to be regarded as a trustful app, **private data in interpretable form can leave the app's area only if such a data flow is granted by the user or the receiver of such data is also known as trustful**. It should be stated that consequently in order to regard an app as privacy-friendly it is not prohibited to exchange private data in forms which are not interpretable by others. For example, **private data can leave the app's area in encrypted, anonymized or pseudonymized form**. 
+In order to be regarded as a trustful app, **private data in interpretable form can leave the app's area only if such a data flow is granted by the user or the receiver of such data is also known as trustful**. It should be stated that consequently in order to regard an app as privacy-friendly it is not prohibited to exchange private data in forms which are not interpretable by others. For example, **private data can leave the app's area in encrypted, anonymized or pseudonymized form**.
 (REMARK: Hinweis auf die begrenzte Wirksamkeit von Pseudo-/Anonymisierung?)
 As stated, the abandonment of the app's area is not only done through classical network connections. On today's mobile devices also other channels should be considered such as Bluetooth connections, outgoing SMS, NFC or even the shared memory, where third-party processes \(which are unknown by the audit process\) can read stored data and send the content anywhere.
 
@@ -55,25 +55,25 @@ The integration of the plib into an own development process is quite simple. The
 
 Plib interfaces are clearly named and require as few as possible parameters in order to be used. For example, in order to encrypt a given file, one can use the plib interface "encrypt" with a pointer to the file as the only parameter. **The developer does not have to deal with passwords, encryption algorithms, key storage and handling.**
 
-Some complex algorithms are outsourced to remote servers, so called privacy services \(pservices\), for example storage solutions, in which it is guaranteed that nobody except the data owner has cognisance of the existence and the content of this data, neither the pservice operator. For the realization of such complex methods, state-of-the-art-based privacy enhanced technologies \(PETs\) are used. For the developer it is not necessary to know "how it works" in detail. As stated as a pre-condition, also these PETs are regarded as trustful. 
+Some complex algorithms are outsourced to remote servers, so called privacy services \(pservices\), for example storage solutions, in which it is guaranteed that nobody except the data owner has cognisance of the existence and the content of this data, neither the pservice operator. For the realization of such complex methods, state-of-the-art-based privacy enhanced technologies \(PETs\) are used. For the developer it is not necessary to know "how it works" in detail. As stated as a pre-condition, also these PETs are regarded as trustful.
 
 **In fact, various documents, certificates of reliable institutions and/or the community will document the fullfilment of these pre-conditions, since all parts of the plib will be open source.**
 
 ### Plib Methods
 
-The plib offers methods for granting data flow by the user at runtime \(so-called "allow-flow"-functions\). Beyond that, the plib offers also "access-flow"-functions. For both types, in dependency of the user decision, data are allowed to be sent out the app's influence area, either in its original plain form, anonymized, pseudonymized or encrypted. 
+The plib offers methods for granting data flow by the user at runtime \(so-called "allow-flow"-functions\). Beyond that, the plib offers also "access-flow"-functions. For both types, in dependency of the user decision, data are allowed to be sent out the app's influence area, either in its original plain form, anonymized, pseudonymized or encrypted.
 
 #### "Allow-flow"
-The **"allow-flow"** type is beneficial for those developers, who are already in possession of an app development. In order to adapt existing developments into privacy-friendly applications, the developer can let the app **request permission** by the runtime user before sending items. The way of accessing private data remains unmodified. 
+The **"allow-flow"** type is beneficial for those developers, who are already in possession of an app development. In order to adapt existing developments into privacy-friendly applications, the developer can let the app **request permission** by the runtime user before sending items. The way of accessing private data remains unmodified.
 
 #### "Access-flow"
-The **"access-flow"** type operates directly on accessing private data. 
+The **"access-flow"** type operates directly on accessing private data.
 
 The plib offers a number of different access methods, depending the type the developer is intended to access. In order to access exemplary mentioned contacts of the device, the plib visualizes at first a list of all available contacts to the runtime user and let him select a subset of all contacts before asking the runtime user, in which form the selected data have to be granted \(plain, encrypted, anonymized, pseudonymized\) or not. Once granted by the runtime user, the app can process given contacts as needed \(for example sending them somewhere\). **The access, the pre-selection and the definition of the form of the private data is done by the runtime-user and is not within the influence of the developer itself.**
 
-If the developer implements a side-channel, where not for flow granted data leaves the app's influence, the static data flow analysis as part of the audit process will identify such a case. The developer can define a text message, which is displayed to the runtime user while making such a decision. The user can define not to be asked anymore in the future for given data type by checking a given checkbox. This persistent decision can be made dependent on the access position within the implementation \(stack trace\) and depends on the text, the developer transmitted programmatically for displaying. Once such decisions are made persistent, the user will not be asked anymore and consequently the selected data is leaving the plib to the developer area without the "user ask" process. 
+If the developer implements a side-channel, where not for flow granted data leaves the app's influence, the static data flow analysis as part of the audit process will identify such a case. The developer can define a text message, which is displayed to the runtime user while making such a decision. The user can define not to be asked anymore in the future for given data type by checking a given checkbox. This persistent decision can be made dependent on the access position within the implementation \(stack trace\) and depends on the text, the developer transmitted programmatically for displaying. Once such decisions are made persistent, the user will not be asked anymore and consequently the selected data is leaving the plib to the developer area without the "user ask" process.
 
-Such persistent decisions are revocable through the plib user interface. The audit process must also include an evaluation and ensure that the developer's app offers also a link to the plib user interface, for example within the apps settings area. 
+Such persistent decisions are revocable through the plib user interface. The audit process must also include an evaluation and ensure that the developer's app offers also a link to the plib user interface, for example within the apps settings area.
 
 #### Unproblematic data access
 
