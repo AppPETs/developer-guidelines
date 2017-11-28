@@ -36,7 +36,7 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 * [MaintenancePhase.md](./MaintenancePhase.md)
 
-The basic ideas is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to proecting illegitimate access and abuse of personal data early and in each phase of development. 
+The basic ideas is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to protecting illegitimate access and abuse of personal data early and in each phase of development. 
 
 **Thinking early about potential risks and flaws makes it much more easy to address the risks with proper measures.**
 
