@@ -22,6 +22,8 @@ For this functions certain user data might be necessary or useful like geo-data 
 
 - [ ] is the unintended use a main issue here?
 
+[comment]:# "This is a comment"
+
 
 When planning the application design, consider not which purpose you design the app for but also take into account that users might find alternative ways to use the app which can have an impact on other users of the device.
 
