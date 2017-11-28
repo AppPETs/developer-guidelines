@@ -22,7 +22,7 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 ![Application Development Lifecycle](figures/applifecycle.svg)
 
-
+- [ ] shortly explain the phases (one sentence)
 
 * [PlanningPhase.md](./PlanningPhase.md)
 
