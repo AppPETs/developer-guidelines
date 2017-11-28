@@ -1,4 +1,4 @@
-# Implementation, testing and documenting Phase
+# Implementation and documenting Phase
 
 In this phase, the developers create the software code and documentation for the project.
 

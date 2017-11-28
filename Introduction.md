@@ -1,15 +1,28 @@
 # Introduction
 
-The goal of the document is to support the development of privacy-respecting applications. Most guides focus either on the legal aspects of protecting the data of end users or they focus on technical measurements to secure processed data. This document is intended to fill the gap between both worlds and should provide an overview into the different aspects that need to be respected when developing applications.
+The goal of the document is to motivate and support the development of privacy-respecting applications. 
 
-Depending on the usage scenario, different protection goals are relevant. Not respecting certain aspects for certain scenarios might lead to legal consequences.
+*Privacy can be a great **feature** for your users and be a **competetive argument**. Moreover in order to **stay out of trouble with new EU data protection regulation** some things need to be taken into account during app development*
 
-As the goal of the document is to act as an interface between technical solutions and legal aspects, references to both are given. The legal aspects in this document are based on the *General Data Protection Regulation* (GDPR), which becomes effective in May 25, 2018.
+Most guides focus either on the legal aspects of protecting the data of end users or they focus on technical measurements to secure processed data. This document is intended to fill the gap between both worlds and should provide an overview into the different aspects that need to be respected when developing applications.
+
+Depending on the use cases of your app, different things need to be considered about the protection of data. Not respecting certain aspects for certain scenarios might lead to legal consequences. 
+
+**This guideline outlines the relevant concepts to find out where protection of data comes into play and how!**
+
+The goal of the document is to act as an interface between technical solutions and legal aspects, references to both are given to dive deeper into the subjects if you got curious. 
+
+The legal aspects in this document are based on the *General Data Protection Regulation* (GDPR), which becomes effective in May 25, 2018.
+
+
 
 ## Document Structure
+The guideline is separated in a number of steps which are usually taken into account during application development. Some guidelines use a different wording, but the process should look familiar or should at least  be easy to adopt 
+.
+
 ![Application Development Lifecycle](figures/applifecycle.svg)
 
-**TODO:** Application Development Lifecylce hier integrieren.
+
 
 * [PlanningPhase.md](./PlanningPhase.md)
 
@@ -23,9 +36,22 @@ As the goal of the document is to act as an interface between technical solution
 
 * [MaintenancePhase.md](./MaintenancePhase.md)
 
-* [ApplicationDevelopmentLifecycle.md](./ApplicationDevelopmentLifecycle.md)
+The basic ideas is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to proecting illegitimate access and abuse of personal data early and in each phase of development. 
 
-## Definition of common used terms
+**Thinking early about potential risks and flaws makes it much more easy to address the risks with proper measures.**
+
+[(More information on the appplication development lifecycle)](./ApplicationDevelopmentLifecycle.md)
+
+If you want to learn more about basic concepts like privacy by default, you can have a look at the following sections. But you might want to get started and [jump into the development phases](./PlanningPhase.md) and come back later if you need more information.
+
+## Target Audience
+(REM: is this section necessary or distracting?)
+
+This document is for software developers or other decision makers related to data processing. It aims to clarify the actions required to prevent legal consequences and in addition to support the privacy of their end users.
+
+A background in security and privacy protection is not required. Background information is listed in the [Foundations](Foundations.md) section. The legal aspects are addressed in a non-legalese form, as developers tend to not read them – you are not alone on this.
+
+## Definition of Common Used Terms
 
 ### **Privacy by Design & Default**
 
@@ -38,33 +64,26 @@ As the goal of the document is to act as an interface between technical solution
 
 ### Risk Assessment
 
-after each Development Phase the risk needs to be reassessed
+- after each Development Phase the risk needs to be reassessed
 
-------
+***
+END OF DOCUMENT
+***
 
-======== Alter Inhalt (ggf. übernehmen) ===========
+DISCUSSION SPACE
+
+TODO:
+
+- [ ] add descriptions and definitions of basic concepts used during the DevGL
+
+- [ ] Explain that the referenced technical solutions are what is considered "state-of-the-art" – which is a fuzzy term in a legal context.
+
+- [ ] We could also reference developer guidelines from Google/Apple (see [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)) and mention that non-compliance with certain aspects might not only lead to legal consequences but also to rejecting for a market place (at least that is the case for Apple's App Store). Reason behind this: Developers might not fear legal consequences but rejection, because legal consequences might not appear imminent to them, e.g., if they are not directly responsible and think their boss/lawyers will handle it.
+
+- [ ] We could make the document more interesting if we "promise" to discuss how some analytics or advertisement could be realized in a privacy-friendly manner. Developers might think that "privacy = less functionality" and refrain from reading the document based on that prejudice.
+
+- [ ] How do we want to handle the separation of Business to Customer (B2C), Business to Employee (B2E), and Business to Business (B2B)? I suggest that the discussion of certain aspects should clarify the relevant context.
+
+- [ ] Is Mobile Device Management (MDM) relevant?
 
 
-**TODO**: Explain that the referenced technical solutions are what is considered "state-of-the-art" – which is a fuzzy term in a legal context.
-
-**TODO**: We could also reference developer guidelines from Google/Apple (see [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)) and mention that non-compliance with certain aspects might not only lead to legal consequences but also to rejecting for a market place (at least that is the case for Apple's App Store). Reason behind this: Developers might not fear legal consequences but rejection, because legal consequences might not appear imminent to them, e.g., if they are not directly responsible and think their boss/lawyers will handle it.
-
-**TODO**: We could make the document more interesting if we "promise" to discuss how some analytics or advertisement could be realized in a privacy-friendly manner. Developers might think that "privacy = less functionality" and refrain from reading the document based on that prejudice.
-
-## Target Audience
-
-This document is for software developers or other decision makers related to data processing. It aims to clarify the actions required to prevent legal consequences and in addition to support the privacy of their end users.
-
-A background in security and privacy protection is not required. Background information is listed in the [Foundations](Foundations.md) section. The legal aspects are addressed in a non-legalese form, as developers tend to not read them – you are not alone on this.
-
-**TODO**: How do we want to handle the separation of Business to Customer (B2C), Business to Employee (B2E), and Business to Business (B2B)? I suggest that the discussion of certain aspects should clarify the relevant context.
-
-**TODO**: Is Mobile Device Management (MDM) relevant?
-
-## Document Structure
-
-The document is structured with respect to the target audience.
-
-First relevant background information on security and privacy is provided. Especially the terminology used throughout this document is explained, as terms differ between the software security and legal communities. Then an overview of possible threats and data protection goals is given.
-
-The main part is structured in familiar way for software developers, the different phases of the application development lifecycle. For each phase, relevant aspects are highlighted and technical solutions to address certain problems are referenced.
