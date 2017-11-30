@@ -22,6 +22,8 @@ For this functions certain user data might be necessary or useful like geo-data 
 
 - [ ] is the unintended use a main issue here?
 
+[comment]:# "This is a comment"
+
 
 When planning the application design, consider not which purpose you design the app for but also take into account that users might find alternative ways to use the app which can have an impact on other users of the device.
 
@@ -41,40 +43,40 @@ A privacy-friendly app will only include functionality and permissions that is n
 
 Ideally any permissions that are not strictly necessary to serve the intended purpose should be avoided. Any need for permissions must be explained and justified in a comprehensible way. Take into account that users have no deeper understanding of the dependencies and technical necessities. Only if they really understand why and how the permission is used they can actually give a real consent.
 
+ – [ ] should there be a headline with "Analysis of reuired data"?
 
 ## Defining the sort of data to be used
 
 There are different categories of data which are relevant for the use of the app.
 
  - **Primary Data**: Data related to the end-user or to other data subjects concerned. Apart from personal data, consider content data needed.
+ - [ ] is content data different from user generated data?
 
  - **Secondary Data**: Data will be produced while the app is running. This might be user content (e.g. messages), log data, data related to payment, statistics to authorizing access or other. These will also contain personal data that require protection and thus need to be specified and assessed.
 
  - [ ] what's the use of the differentiation of primary/secondary data here?
 
-## -------------------------------------------------------------------
+---
+END OF DOCUMENT
 
-## Check Laws and Regulations applicable to your specific sector of industry
+---
 
-### Rights and obligations to erase the data collected
+###Things to add:
+ - [ ] Check Laws and Regulations applicable to your specific sector of industry
 
-=================================== Alter Inhalt ==========================================
+ - [ ] Rights and obligations to erase the data collected
 
-## Purpose Definition
+###Pastebin
 
-## Analysis of Required Data
+####former sections:
 
-### Primary
+ - [ ] Data Subjects
 
-### Secondary
+ - [ ] Processes
 
-## Data Subjects
+ - [ ] Responsibilities
 
-## Processes
-
-## Responsibilities
-
-## Communication of Purpose / Data Processing Requirement and Protection Measurements
+ - [ ] Communication of Purpose / Data Processing Requirement and Protection Measurements
 
 
 
