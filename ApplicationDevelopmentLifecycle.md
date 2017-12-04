@@ -10,6 +10,20 @@
 
 If the user's privacy would be impacted in an unacceptable or illegal manner development needs go back to previous stages and re-assess the problem in order to avoid fruitlessly spending resources.
 
+##Phases in the Developer Guidelines:
+
+* [PlanningPhase.md](./PlanningPhase.md)
+
+* [AnalysisPhase.md](./AnalysisPhase.md)
+
+* [DesignPhase.md](./DesignPhase.md)
+
+* [ImplementationPhase.md](./ImplementationPhase.md)
+
+* [TestingPhase.md](./TestingPhase.md)
+
+* [MaintenancePhase.md](./MaintenancePhase.md)
+
 ---
 
 **TODO**
