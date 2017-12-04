@@ -23,28 +23,27 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 - [ ] shortly explain the phases (one sentence)
 
-* [PlanningPhase.md](./PlanningPhase.md)
+* [PlanningPhase.md](./PlanningPhase.md) -  First carefully plan your app: purpose, functions, use cases.
 
-* [AnalysisPhase.md](./AnalysisPhase.md)
+* [AnalysisPhase.md](./AnalysisPhase.md) - Analyse which data you need and how you need to process it.
 
-* [DesignPhase.md](./DesignPhase.md)
+* [DesignPhase.md](./DesignPhase.md) - The system is designed to satisfy the requirements identified in the previous phases.
 
-* [ImplementationPhase.md](./ImplementationPhase.md)
+* [ImplementationPhase.md](./ImplementationPhase.md) - Create the software code and documentation for the project.
 
-* [TestingPhase.md](./TestingPhase.md)
+* [TestingPhase.md](./TestingPhase.md) - The software is tested in various ways to ensure all features work as intended and to ensure quality.
 
-* [MaintenancePhase.md](./MaintenancePhase.md)
+* [MaintenancePhase.md](./MaintenancePhase.md) - Consider continuos processes after publication.
 
 The basic ideas is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to protecting illegitimate access and abuse of personal data early and in each phase of development. 
 
 **Thinking early about potential risks and flaws makes it much more easy to address the risks with proper measures.**
 
-[(More information on the appplication development lifecycle)](./ApplicationDevelopmentLifecycle.md)
+[(More information on the application development lifecycle)](./ApplicationDevelopmentLifecycle.md)
 
 If you want to learn more about basic concepts like privacy by default, you can have a look at the following sections. But you might want to get started and [jump into the development phases](./PlanningPhase.md) and come back later if you need more information.
 
 ## Target Audience
-(REM: is this section necessary or distracting?)
 
 This document is for software developers or other decision makers related to data processing. It aims to clarify the actions required to prevent legal consequences and in addition to support the privacy of their end users.
 
@@ -73,7 +72,7 @@ DISCUSSION SPACE
 
 TODO:
 
-- [ ] add descriptions and definitions of basic concepts used during the DevGL
+- [ ] add descriptions and definitions of basic concepts used during the DevGL / or in [Foundations](Foundations.md)
 
 - [ ] Explain that the referenced technical solutions are what is considered "state-of-the-art" – which is a fuzzy term in a legal context.
 
