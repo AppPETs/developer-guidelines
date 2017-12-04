@@ -44,7 +44,6 @@ The basic ideas is that it is a good practice to think carefully about the needs
 If you want to learn more about basic concepts like privacy by default, you can have a look at the following sections. But you might want to get started and [jump into the development phases](./PlanningPhase.md) and come back later if you need more information.
 
 ## Target Audience
-(REM: is this section necessary or distracting?)
 
 This document is for software developers or other decision makers related to data processing. It aims to clarify the actions required to prevent legal consequences and in addition to support the privacy of their end users.
 
@@ -73,7 +72,7 @@ DISCUSSION SPACE
 
 TODO:
 
-- [ ] add descriptions and definitions of basic concepts used during the DevGL
+- [ ] add descriptions and definitions of basic concepts used during the DevGL / or in [Foundations](Foundations.md)
 
 - [ ] Explain that the referenced technical solutions are what is considered "state-of-the-art" – which is a fuzzy term in a legal context.
 
