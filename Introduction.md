@@ -33,7 +33,7 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 * [TestingPhase.md](./TestingPhase.md) - The software is tested in various ways to ensure all features work as intended and to ensure quality.
 
-* [MaintenancePhase.md](./MaintenancePhase.md) - Strategies like update management need also to be taken into account.
+* [MaintenancePhase.md](./MaintenancePhase.md) - Consider continuos processes after publication.
 
 The basic ideas is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to protecting illegitimate access and abuse of personal data early and in each phase of development. 
 
