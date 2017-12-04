@@ -11,7 +11,23 @@ Basic concepts of privacy problems and how to address them using privacy enhanci
 The guideline is work in progress and written as part of the [AppPETs](http://app-pets.org/home/) project (funded by the German [Federal Ministry of Education and Research](https://www.bmbf.de/en/index.html)). Contributions, feedback and discussion is welcomed.
 
 ## Table of content
-To get an overview of the developer guidelines document have a look at the **[Introduction](./Introduction.md)**
+To get an overview of the developer guidelines document have a look at the 
+
+ * [Introduction](./Introduction.md)
+
+The Guideline is structured in Phases of the [Application development lifecycle](./ApplicationDevelopmentLifecycle.md)
+
+* [PlanningPhase.md](./PlanningPhase.md)
+
+* [AnalysisPhase.md](./AnalysisPhase.md)
+
+* [DesignPhase.md](./DesignPhase.md)
+
+* [ImplementationPhase.md](./ImplementationPhase.md)
+
+* [TestingPhase.md](./TestingPhase.md)
+
+* [MaintenancePhase.md](./MaintenancePhase.md)
 
 ## Contribution
 
