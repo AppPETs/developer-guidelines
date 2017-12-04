@@ -23,23 +23,23 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 - [ ] shortly explain the phases (one sentence)
 
-* [PlanningPhase.md](./PlanningPhase.md)
+* [PlanningPhase.md](./PlanningPhase.md) -  First carefully plan your design.
 
-* [AnalysisPhase.md](./AnalysisPhase.md)
+* [AnalysisPhase.md](./AnalysisPhase.md) - Analyse what you need and how you achieve it.
 
-* [DesignPhase.md](./DesignPhase.md)
+* [DesignPhase.md](./DesignPhase.md) - The system is designed to satisfy the requirements identified in the previous phases.
 
-* [ImplementationPhase.md](./ImplementationPhase.md)
+* [ImplementationPhase.md](./ImplementationPhase.md) -The system is designed to satisfy the requirements identified in the previous phases.
 
-* [TestingPhase.md](./TestingPhase.md)
+* [TestingPhase.md](./TestingPhase.md) - the software is tested in various ways to ensure all features work as intended and ensure quality.
 
-* [MaintenancePhase.md](./MaintenancePhase.md)
+* [MaintenancePhase.md](./MaintenancePhase.md) - strategies like update management need also to be taken into account.
 
 The basic ideas is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to protecting illegitimate access and abuse of personal data early and in each phase of development. 
 
 **Thinking early about potential risks and flaws makes it much more easy to address the risks with proper measures.**
 
-[(More information on the appplication development lifecycle)](./ApplicationDevelopmentLifecycle.md)
+[(More information on the application development lifecycle)](./ApplicationDevelopmentLifecycle.md)
 
 If you want to learn more about basic concepts like privacy by default, you can have a look at the following sections. But you might want to get started and [jump into the development phases](./PlanningPhase.md) and come back later if you need more information.
 
