@@ -23,17 +23,17 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 - [ ] shortly explain the phases (one sentence)
 
-* [PlanningPhase.md](./PlanningPhase.md) -  First carefully plan your design.
+* [PlanningPhase.md](./PlanningPhase.md) -  First carefully plan your app: purpose, functions, use cases.
 
-* [AnalysisPhase.md](./AnalysisPhase.md) - Analyse what you need and how you achieve it.
+* [AnalysisPhase.md](./AnalysisPhase.md) - Analyse which data you need and how you need to process it.
 
 * [DesignPhase.md](./DesignPhase.md) - The system is designed to satisfy the requirements identified in the previous phases.
 
 * [ImplementationPhase.md](./ImplementationPhase.md) - Create the software code and documentation for the project.
 
-* [TestingPhase.md](./TestingPhase.md) - The software is tested in various ways to ensure all features work as intended and ensure quality.
+* [TestingPhase.md](./TestingPhase.md) - The software is tested in various ways to ensure all features work as intended and to ensure quality.
 
-* [MaintenancePhase.md](./MaintenancePhase.md) - strategies like update management need also to be taken into account.
+* [MaintenancePhase.md](./MaintenancePhase.md) - Strategies like update management need also to be taken into account.
 
 The basic ideas is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to protecting illegitimate access and abuse of personal data early and in each phase of development. 
 
