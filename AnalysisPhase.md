@@ -32,7 +32,6 @@ That's why it is advised to avoid the storage and processing of data where possi
 
 [comment]:"(Daten auf dem Gerät sind immer auch möglicherweise personalisierbar ... -> grundsätzlich immer möglich Daten für Rückschlüsse nutzbar? -> Datenminimierung)"
 
-
 The definition of a privacy policy implies, but is not limited to:
 
 ### Which types of personal data are accessed and why?
@@ -41,27 +40,35 @@ The definition of a privacy policy implies, but is not limited to:
  * Which third-parties will receive access to the data and under what conditions?
  * Statement, that collected data will be protected from unauthorized access
  * Contact data of the actual Data Protection Officer
+     * [ ] is this necessary for any app? / is it practicable for app developers?
  * Statement on how to access personal saved data as a user
  * Statement on how to initiate personal data deletion as a user
- * extended information about privacy policies etc. can be found here
-       * https://www.enisa.europa.eu/
- - [ ] (hier einfach die basalen Punkte, (die zeitlos sind) übernehmen*
-
+ * extended information about privacy policies etc. can be found here: [https://www.enisa.europa.eu/]
+     - [ ] (hier einfach die basalen Punkte, (die zeitlos sind) übernehmen*
+     - [ ] make clearer reference to concrete pages
 
 ### Is data leaving the main ecosystem?
+Think about on which level your data is processed and transmitted.
 
-  - definition of the level of data leakage
-    - is data leaving the "local boundary"
+  - definition the level of data leakage
+    - is data leaving the "local boundary" 
     - is data leaving the "eco system boundary"
     - is data leaving the "3rd party boundary"
-  - service provider needs data processing contract *(german ADV)*
-*(auch die Auftrragsdatenverarbeiter verpflichten auf Datenschutzprinzipien)*
+    - [ ] explain what that exactly means!
+
+For the processing of data, you need a proper contract, that you are entitled to do so. This is bound to a number of duties
+
+  - [ ] *(german ADV)* (translation of the term?)
+ -  [ ] which duties exactly?
+     - [ ] *(auch die Auftrragsdatenverarbeiter verpflichten auf Datenschutzprinzipien)*
 
 ### Which data needs which level of protection?
 
-  Special categories of data are placed under particular protection of the law.
+Special categories of data are placed under particular protection of the law.
 
-  0. no personal reference: no protection necessary *(gibt es eigentlich nicht)* *(alterativ: Folgen der Ausnutzung? -> Keine Folgen)*
+  0. no personal reference: no protection necessary 
+
+    - [ ] *(gibt es eigentlich nicht)* *(alterativ: Folgen der Ausnutzung? -> Keine Folgen)*
 
       ​	consequences on usage = no consequences, no abuse possible
 
@@ -75,7 +82,8 @@ The definition of a privacy policy implies, but is not limited to:
      ​	consequences on usage = unwanted consequences, can be used against individual
 
   3. dangerous data: processing prohibited
-*(was ist da genau gemeint, Gefahr für Leib und Leben? / streichen?)*
+
+    -  [ ] *(was ist da genau gemeint, Gefahr für Leib und Leben? / streichen?)*
 
      ​	*consequences on usage = threat to life or freedom of individual*
 
