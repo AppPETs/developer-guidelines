@@ -29,9 +29,9 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 * [DesignPhase.md](./DesignPhase.md) - The system is designed to satisfy the requirements identified in the previous phases.
 
-* [ImplementationPhase.md](./ImplementationPhase.md) -The system is designed to satisfy the requirements identified in the previous phases.
+* [ImplementationPhase.md](./ImplementationPhase.md) - Create the software code and documentation for the project.
 
-* [TestingPhase.md](./TestingPhase.md) - the software is tested in various ways to ensure all features work as intended and ensure quality.
+* [TestingPhase.md](./TestingPhase.md) - The software is tested in various ways to ensure all features work as intended and ensure quality.
 
 * [MaintenancePhase.md](./MaintenancePhase.md) - strategies like update management need also to be taken into account.
 
