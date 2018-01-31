@@ -1,6 +1,8 @@
 # Implementation and documenting Phase
 
+[comment]:"trifft das denn Sinn der Section?"
 In this phase, the developers create the software code and documentation for the project.
+ * [ ] explain some essentials in the subsections before referencing to external documents...
 
 ## Established Best Practices
 
@@ -27,7 +29,8 @@ The use of third party code / services may be beneficial or even necessary for t
 If during the implementation phase challenges arise which require to deviate from the original design, this should be done by an additional iteration of the analysis phase.
 
 
-## **The Privacy Library and Privacy-enhanced Technologies**
+## **The Privacy Library and Privacy-enhanced Technologies** 
+[comment]:"(Werbeblock)"
 
 The Privacy Library \(plib\) is a development library one can integrate into the app development environment. The plib contains a collection of various methods, separated into two classes: i\) methods for ensuring self-determination about privacy-related data and ii\) methods offering various security-related functions including complex privacy-enhanced technologies \(PETs\).
 

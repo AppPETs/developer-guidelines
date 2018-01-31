@@ -21,11 +21,11 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 ![Application Development Lifecycle](figures/applifecycle.svg)
 
-- [ ] shortly explain the phases (one sentence)
+- [x] shortly explain the phases (one sentence)
 
-* [PlanningPhase.md](./PlanningPhase.md) -  First carefully plan your app: purpose, functions, use cases.
+* [PlanningPhase.md](./PlanningPhase.md) -  First carefully plan your app: purpose, functions, use cases. [comment]:"focus on functionality"
 
-* [AnalysisPhase.md](./AnalysisPhase.md) - Analyse which data you need and how you need to process it.
+* [AnalysisPhase.md](./AnalysisPhase.md) - Analyse which data you need and how you need to process it. [comment]:"nur Daten Analyse?"
 
 * [DesignPhase.md](./DesignPhase.md) - The system is designed to satisfy the requirements identified in the previous phases.
 
@@ -35,7 +35,7 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 * [MaintenancePhase.md](./MaintenancePhase.md) - Consider continuos processes after publication.
 
-The basic ideas is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to protecting illegitimate access and abuse of personal data early and in each phase of development. 
+The basic idea is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to protecting illegitimate access and abuse of personal data early and in each phase of development. 
 
 **Thinking early about potential risks and flaws makes it much more easy to address the risks with proper measures.**
 

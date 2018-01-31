@@ -16,14 +16,14 @@ It must be taken into account that **Device-specific information** is subject to
  - Unique identifiers (UDID, IMEI, MAC addresses etc.) may only be obtained if necessary for the specific purpose and after an actively confirmed opt-in
  - Unique identifiers must not be used for individual user tracking
      - [ ] is there a legal restriction or should we forumlate this more weak?
- - Tracking IDs (IDFA, AAID) should be avoided and where necessary be transmitted in encrypted form        
+ - Tracking IDs (IDFA, AAID) should be avoided and where necessary be transmitted in encrypted form
     - [ ] *(sollte eigentlich gar nicht drin sein, in irgendeiner Form wird es aber dennoch einfließen.)* -> ja gut, aber... was jetzt?
  - User-disabled tracking options must be respected 
-     - [ ] *(das ist aber nur opt out, ist an anderer Stelle vielleicht schon erwähnt, also hier nochmal stärker machen - kann auch in aderer Form erwähnt werden, aber ist eben wichtig hier unseren Fokus zu schärfen)*
+     - [ ] *(das ist aber nur opt out, ist an anderer Stelle vielleicht schon erwähnt, also hier nochmal stärker machen - kann auch in anderer Form erwähnt werden, aber ist eben wichtig hier unseren Fokus zu schärfen)*
 
 ##Privacy Policy
 
-The processing of personal data makes it necessaty to define a **Privacy Policy**. Since the minimum requirements of the local data protection laws have to be fullfilled anyway we suggest to take data protection serious and go a step further to build attractive and competitive apps.
+The processing of personal data makes it necessary to define a **Privacy Policy**. Since the minimum requirements of the local data protection laws have to be fullfilled anyway we suggest to take data protection serious and go a step further to build attractive and competitive apps.
 
 [comment]:"keine minimale Compliance, sondern ordentlicher Datenschutz"
 
@@ -115,11 +115,13 @@ For instance if children or other persons who require particular legal protectio
 
 ## Risk Assessment
 
+[comment]:"to be discussed"
+
  * [ ] which generic parts of RA can be put in Introduction.md / Foundations.md and which special part might be relevant for the specific phases
 
  * [ ] the criteria mentioned above are a good basis for the risk assessment, which shoule be revisited after every step in the development lifecycle
 
- * [ ] what means risk here for the developer?
+ * [ ] what means risk here for the developer? [comment]:"risk to endanger privacy of clients"
 
 
 - all processed data needs to be analysed to specify a risk level of potential malicious use of the data
