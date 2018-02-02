@@ -1,6 +1,5 @@
 # Introduction
 
-
 The goal of the document is to motivate and support the development of privacy-respecting applications. 
 
 *Privacy can be a great **feature** for your users and be a **competetive argument**. Moreover in order to **stay out of trouble with new EU data protection regulation** some things need to be taken into account during app development*
@@ -12,10 +11,13 @@ Depending on the use cases of your app, different things need to be considered a
 **This guideline outlines the relevant concepts to find out where protection of data comes into play and how!**
 
 The goal of the document is to act as an interface between technical solutions and legal aspects, references to both are given to dive deeper into the subjects if you got curious. 
+[comment]:"legal foundation, not only aspects, enable you to be compliant"
 
 The legal aspects in this document are based on the *General Data Protection Regulation* (GDPR), which becomes effective in May 25, 2018.
 
+## In very short at your fingertips...
 
+[comment]:"add here a one page summary of the content and motivate a structured development along the lines outlined in the rest of the document. give hints to papers and material referenced and attached to this document"
 
 ## Document Structure
 The guideline is separated in a number of steps which are usually taken into account during application development. Some guidelines use a different wording, but the process should look familiar or should at least be easy to adopt.
@@ -26,9 +28,9 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 * [PlanningPhase.md](./PlanningPhase.md) -  First carefully plan your app: purpose, functions, use cases. [comment]:"focus on functionality"
 
-* [AnalysisPhase.md](./AnalysisPhase.md) - Analyse which data you need and how you need to process it. [comment]:"nur Daten Analyse?"
+* [AnalysisPhase.md](./AnalysisPhase.md) - Analyse which data you need and how you need to process it. [comment]:"role of data analysis?"
 
-* [DesignPhase.md](./DesignPhase.md) - The system is designed to satisfy the requirements identified in the previous phases.
+* [DesignPhase.md](./DesignPhase.md) - The system is designed to satisfy the requirements identified in the previous phases. [comment]:"which"
 
 * [ImplementationPhase.md](./ImplementationPhase.md) - Create the software code and documentation for the project.
 
