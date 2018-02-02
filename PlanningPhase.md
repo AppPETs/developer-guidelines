@@ -1,5 +1,7 @@
 # Planning Phase
 
+Before you start to code, carefully plan your app: what purpose is it for? Which functions will be needed, what are the use cases?
+
 ## Defining the Purpose and Functionality of the App
 
 ### The App's Purpose
@@ -22,9 +24,6 @@ For this functions certain user data might be necessary or useful like geo-data 
 
 - [ ] is the unintended use a main issue here?
 
-[comment]:# "This is a comment"
-
-
 When planning the application design, consider not which purpose you design the app for but also take into account that users might find alternative ways to use the app which can have an impact on other users of the device.
 
 *For example a firewall app can give you information about other apps' illegitimate connections to the internet. Yet it might also give end users a tool to secretly record and monitor other users' internet activities.*
@@ -43,7 +42,7 @@ A privacy-friendly app will only include functionality and permissions that is n
 
 Ideally any permissions that are not strictly necessary to serve the intended purpose should be avoided. Any need for permissions must be explained and justified in a comprehensible way. Take into account that users have no deeper understanding of the dependencies and technical necessities. Only if they really understand why and how the permission is used they can actually give a real consent.
 
- – [ ] should there be a headline with "Analysis of reuired data"?
+ – [ ] should there be a headline with "Analysis of required data"? (or in Analysis Phase?) 
 
 ## Defining the sort of data to be used
 

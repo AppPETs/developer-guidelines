@@ -10,7 +10,7 @@ The successfull completion of the design phase should include:
 * Transformation of **all** requirements into detailed specifications covering **all** aspects of the system
 * Assessment and mitigation of data security risks
 * Assessment and mitigation of privacy risks (infringements of informational self-determination)
-(DG: noch andere Risiken?)
+[comment]:"(DG: noch andere Risiken?)"
 
 ## Deliverables
 
@@ -21,13 +21,17 @@ The successfull completion of the design phase should include:
 * Privacy risk assessment and mitigations justification for the acceptance ofprivacy risks is necessary
 * Users of the system need to be informed about known risks and shortcomings of risk mitigations
 
-# Design activities
+# Design activities 
 
-## System Architecture
+## System Architecture Document
 The system's architecture should give an overview of all physical and logical components of the system and how they interact with each other,
-*(DG: including the data flows(?))*
+[comment]:"*(DG: including the data flows(?))*"
+
+##
+[comment]:"missing: planning test cases and schedules"
 
 ## Perform Risk Management
+[comment]:"for risk assessment more detailed how to? Assets, Angreifer, Schaden, Wahrscheinlichkeit..."
 Threats and vulnerabilities that exist in the project’s environment or that result from interaction with other systems need to be identified during this phase.
 **You cannot consider the design phase complete unless you have a threat model or models that include such considerations.** Threat models are critical components of the design phase and reference a project’s functional and design specifications to describe vulnerabilities and mitigations.
 
@@ -60,14 +64,10 @@ Questions that should be addressed during the Privacy Risk Assessment:
   * Which data is stored on remote devices?
   * What risks through potential privacy leaks are linked to the place of storage?
 
-## Problems
-*(Arbeitsnotizen:)*
-*(TODO Verbinden von Problemen und technischen Umsetzungsmöglichkeiten. Welche Optionen existieren, wo sind sie angebracht und welche Implikationen haben sie.)*
-*(zB Vermeidung eines jeden Datenabflusses, hier gute Beispiele einbringen: Wetterapp, genau oder ungenau, nächste Wetterstation, Rasterung, etc)*
-*(-> Designentscheidungen sollen hier wohl überlegt sein.)*
-*(Bewertung von Daten? Oder: alle Daten sind immer sensibel?)*
-*(-> nur wenn nötig nur für den bestimmten Zweck und nur möglichst sicher verarbeitet....)*
-*(als App-Entwickler weiss man gar nicht wo am Ende aggregierte Daten verwendet werden)*
+## Problem
+
+* [comment]:"was heisst hier problematisch? Hier gibt es ein Risiko im Sinne des RA? Sinn der Section also Lösungen für Probleme zu diskutieren?"
+
 
 * Data receiving problematically? (Datenabruf problematisch? (Metadata & PKR))
 *(technisch umsetzbar / machbar?)*
@@ -80,6 +80,14 @@ Questions that should be addressed during the Privacy Risk Assessment:
   * No? (z.B. bei Bezahlvorgang (Barzahlung = unproblematisch))
   * Yes? (z.B. beim Bezahlvorgang (paypal / Kreditinstitut etc.))
     * back to point -> "how can the following steps possibly help?"
+
+    *(Arbeitsnotizen:)*
+*(TODO Verbinden von Problemen und technischen Umsetzungsmöglichkeiten. Welche Optionen existieren, wo sind sie angebracht und welche Implikationen haben sie.)*
+*(zB Vermeidung eines jeden Datenabflusses, hier gute Beispiele einbringen: Wetterapp, genau oder ungenau, nächste Wetterstation, Rasterung, etc)*
+*(-> Designentscheidungen sollen hier wohl überlegt sein.)*
+*(Bewertung von Daten? Oder: alle Daten sind immer sensibel?)*
+*(-> nur wenn nötig nur für den bestimmten Zweck und nur möglichst sicher verarbeitet....)*
+*(als App-Entwickler weiss man gar nicht wo am Ende aggregierte Daten verwendet werden)*
 
 ## Technical Measures
 Which technical measures can be applied to address the identified risks.
@@ -97,7 +105,7 @@ TODO: Add links and examples
 
 ## Organisational Measures
 Organisational measures include:
-
+[comment]:"reflexivity, communication, testification"
 * Transparency
   * Communication of risks and purpose of data collection to the end user
 * Intervenability

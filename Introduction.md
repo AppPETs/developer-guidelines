@@ -11,23 +11,26 @@ Depending on the use cases of your app, different things need to be considered a
 **This guideline outlines the relevant concepts to find out where protection of data comes into play and how!**
 
 The goal of the document is to act as an interface between technical solutions and legal aspects, references to both are given to dive deeper into the subjects if you got curious. 
+[comment]:"legal foundation, not only aspects, enable you to be compliant"
 
 The legal aspects in this document are based on the *General Data Protection Regulation* (GDPR), which becomes effective in May 25, 2018.
 
+## In very short at your fingertips...
 
+[comment]:"add here a one page summary of the content and motivate a structured development along the lines outlined in the rest of the document. give hints to papers and material referenced and attached to this document"
 
 ## Document Structure
 The guideline is separated in a number of steps which are usually taken into account during application development. Some guidelines use a different wording, but the process should look familiar or should at least be easy to adopt.
 
 ![Application Development Lifecycle](figures/applifecycle.svg)
 
-- [ ] shortly explain the phases (one sentence)
+- [x] shortly explain the phases (one sentence)
 
-* [PlanningPhase.md](./PlanningPhase.md) -  First carefully plan your app: purpose, functions, use cases.
+* [PlanningPhase.md](./PlanningPhase.md) -  First carefully plan your app: purpose, functions, use cases. [comment]:"focus on functionality"
 
-* [AnalysisPhase.md](./AnalysisPhase.md) - Analyse which data you need and how you need to process it.
+* [AnalysisPhase.md](./AnalysisPhase.md) - Analyse which data you need and how you need to process it. [comment]:"role of data analysis?"
 
-* [DesignPhase.md](./DesignPhase.md) - The system is designed to satisfy the requirements identified in the previous phases.
+* [DesignPhase.md](./DesignPhase.md) - The system is designed to satisfy the requirements identified in the previous phases. [comment]:"which"
 
 * [ImplementationPhase.md](./ImplementationPhase.md) - Create the software code and documentation for the project.
 
@@ -35,7 +38,7 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 * [MaintenancePhase.md](./MaintenancePhase.md) - Consider continuos processes after publication.
 
-The basic ideas is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to protecting illegitimate access and abuse of personal data early and in each phase of development. 
+The basic idea is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to protecting illegitimate access and abuse of personal data early and in each phase of development. 
 
 **Thinking early about potential risks and flaws makes it much more easy to address the risks with proper measures.**
 

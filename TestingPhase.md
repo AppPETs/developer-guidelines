@@ -1,5 +1,7 @@
 # Testing Phase
 
+[comment]:"to be filled during the corresponding work packages"
+
 During the testing phase the software is tested in various ways to ensure all features work as intended and the overall quality is as intended. This section covers the testing processes, which are specifically designed to test against weaknesses in the software, that might lead to data leaks or a violation of the privacy of the user.
 
 ## Penetration tests
