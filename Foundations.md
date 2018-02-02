@@ -15,12 +15,13 @@
 - [ ] Transparency: legal vs. IT
 - [ ] Unlinkability vs. Purpose-binding: legal vs. academic definition
 - [ ] Anonymity vs. Pseudonymity (often erroneously in privacy policies and public statements)
+         
 
 ## Threats to Privacy
 
 **TODO**: Entries marked with (CC) were taken from the Protection Profile for Mobile Device Fundamentals ([PDF](https://www.niap-ccevs.org/pp/pp_md_v3.0.pdf)).
 
-- [ ] Eavasdropping (CC)
+- [ ] Eavesdropping (CC)
 - [ ] Network Attack (CC)
 - [ ] Physical Access (CC)
 - [ ] Malicious / Flawed Application (CC)

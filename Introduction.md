@@ -1,5 +1,6 @@
 # Introduction
 
+
 The goal of the document is to motivate and support the development of privacy-respecting applications. 
 
 *Privacy can be a great **feature** for your users and be a **competetive argument**. Moreover in order to **stay out of trouble with new EU data protection regulation** some things need to be taken into account during app development*

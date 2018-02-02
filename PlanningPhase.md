@@ -42,7 +42,7 @@ A privacy-friendly app will only include functionality and permissions that is n
 
 Ideally any permissions that are not strictly necessary to serve the intended purpose should be avoided. Any need for permissions must be explained and justified in a comprehensible way. Take into account that users have no deeper understanding of the dependencies and technical necessities. Only if they really understand why and how the permission is used they can actually give a real consent.
 
- – [ ] should there be a headline with "Analysis of required data"? (or in Analysis Phase?)
+ – [ ] should there be a headline with "Analysis of required data"? (or in Analysis Phase?) 
 
 ## Defining the sort of data to be used
 
