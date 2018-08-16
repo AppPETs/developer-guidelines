@@ -1,6 +1,6 @@
 # Application Development Lifecycle
 
-![Application Development Lifecycle](figures/applifecycle.svg)
+![Application Development Lifecycle](https://raw.githubusercontent.com/AppPETs/developer-guidelines/master/figures/applifecycle.svg)
 
 
  - [ ] shortly explain the phases 
