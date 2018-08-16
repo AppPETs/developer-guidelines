@@ -1,14 +1,13 @@
-# Summary
+# Table of contents
 
-- [About](README.md)
-- [Introduction](Introduction.md)
-- [Foundations](Foundations.md)
-- [Application Development Lifecycle](ApplicationDevelopmentLifecycle.md)
-  - [Planning Phase](PlanningPhase.md)
-  - [Analysis Phase](AnalysisPhase.md)
-  - [Design Phase](DesignPhase.md)
-  - [Implementation Phase](ImplementationPhase.md)
-  - [Testing Phase](TestingPhase.md)
-  - [Maintenance](MaintenancePhase.md)
-
+* [About](README.md)
+* [Introduction](introduction.md)
+* [Foundations](foundations.md)
+* [Application Development Lifecycle](applicationdevelopmentlifecycle/README.md)
+  * [Planning Phase](applicationdevelopmentlifecycle/planningphase.md)
+  * [Analysis Phase](applicationdevelopmentlifecycle/analysisphase.md)
+  * [Design Phase](applicationdevelopmentlifecycle/designphase.md)
+  * [Implementation Phase](applicationdevelopmentlifecycle/implementationphase.md)
+  * [Testing Phase](applicationdevelopmentlifecycle/testingphase.md)
+  * [Maintenance](applicationdevelopmentlifecycle/maintenancephase.md)
 

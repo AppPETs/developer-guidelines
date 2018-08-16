@@ -1,4 +1,4 @@
-# Developer Guidelines for Privacy Aware Mobile Apps
+# About
 
 **TODO:** add logo
 
@@ -6,28 +6,24 @@ This document outlines basic aspects of mobile apps which should be considered f
 
 We are convinced that **privacy protection is an attractive feature** and can attract addtional users. We aim on providing **easy to implement** privacy features **without limiting** the functions of your app.
 
-Basic concepts of privacy problems and how to address them using privacy enhancing technologies (PETs) are combined with legal hints how you comply with data protection law, i.e. the new european data protection regulation.
+Basic concepts of privacy problems and how to address them using privacy enhancing technologies \(PETs\) are combined with legal hints how you comply with data protection law, i.e. the new european data protection regulation.
 
-The guideline is work in progress and written as part of the [AppPETs](http://app-pets.org/home/) project (funded by the German [Federal Ministry of Education and Research](https://www.bmbf.de/en/index.html)). Contributions, feedback and discussion is welcomed.
+The guideline is work in progress and written as part of the [AppPETs](http://app-pets.org/home/) project \(funded by the German [Federal Ministry of Education and Research](https://www.bmbf.de/en/index.html)\). Contributions, feedback and discussion is welcomed.
 
 ## Table of content
-To get an overview of the developer guidelines document have a look at the 
 
- * [Introduction](./Introduction.md)
+To get an overview of the developer guidelines document have a look at the
 
-The Guideline is structured in Phases of the [Application development lifecycle](./ApplicationDevelopmentLifecycle.md)
+* [Introduction](introduction.md)
 
-* [PlanningPhase.md](./PlanningPhase.md)
+The Guideline is structured in Phases of the [Application development lifecycle](applicationdevelopmentlifecycle/)
 
-* [AnalysisPhase.md](./AnalysisPhase.md)
-
-* [DesignPhase.md](./DesignPhase.md)
-
-* [ImplementationPhase.md](./ImplementationPhase.md)
-
-* [TestingPhase.md](./TestingPhase.md)
-
-* [MaintenancePhase.md](./MaintenancePhase.md)
+* [PlanningPhase.md](applicationdevelopmentlifecycle/planningphase.md)
+* [AnalysisPhase.md](applicationdevelopmentlifecycle/analysisphase.md)
+* [DesignPhase.md](applicationdevelopmentlifecycle/designphase.md)
+* [ImplementationPhase.md](applicationdevelopmentlifecycle/implementationphase.md)
+* [TestingPhase.md](applicationdevelopmentlifecycle/testingphase.md)
+* [MaintenancePhase.md](applicationdevelopmentlifecycle/maintenancephase.md)
 
 ## Contribution
 
@@ -35,9 +31,9 @@ The Guideline is structured in Phases of the [Application development lifecycle]
 
 * Reading / Link for sharing: [https://blochberger.gitbooks.io/developer-guidelines](https://blochberger.gitbooks.io/developer-guidelines)
 * Issues/Discussions: [https://www.gitbook.com/book/blochberger/developer-guidelines/discussions](https://www.gitbook.com/book/blochberger/developer-guidelines/discussions)
-    * **[move to apppets repository?]**
-* Github repository: [https://github.com/blochberger/developer-guidelines](https://github.com/blochberger/developer-guidelines) (automatically synched with Gitbook repository)
-* Gitbook repository: [https://gitbook.com/book/blochberger/developer-guidelines](https://gitbook.com/book/blochberger/developer-guidelines) (automatically synched with Github repository)
+  * **\[move to apppets repository?\]**
+* Github repository: [https://github.com/blochberger/developer-guidelines](https://github.com/blochberger/developer-guidelines) \(automatically synched with Gitbook repository\)
+* Gitbook repository: [https://gitbook.com/book/blochberger/developer-guidelines](https://gitbook.com/book/blochberger/developer-guidelines) \(automatically synched with Github repository\)
 
 ### Style / Workflow
 
