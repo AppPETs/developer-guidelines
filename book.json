@@ -10,7 +10,7 @@
 	"links": {
 		"home": null,
 		"about": false,
-		"issues": "https://www.gitbook.com/book/blochberger/developer-guidelines/discussions",
+		"issues": "https://github.com/AppPETs/developer-guidelines/issues",
 		"contribute": null,
 		"sharing": {
 			"google": null,
