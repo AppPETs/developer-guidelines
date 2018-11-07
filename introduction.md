@@ -3,7 +3,7 @@
 The goal of the document is to motivate and support the development of privacy-respecting applications.
 
 {% hint style="info" %}
-Privacy can be a great **feature** for your users and be a **competetive argument**. Moreover in order to **stay out of trouble with new EU data protection regulation** some things need to be taken into account during app development.
+Privacy can be a great **feature** for your users and a **competetive argument** in comparison to other apps. Moreover in order to **stay out of trouble with new EU data protection regulation** some things need to be taken into account during app development.
 {% endhint %}
 
 Most guides focus either on the legal aspects of protecting the data of end users or they focus on technical measurements to secure processed data. This document is intended to fill the gap between both worlds and should provide an overview into the different aspects that need to be respected when developing applications.
@@ -12,7 +12,7 @@ Depending on the use cases of your app, different things need to be considered a
 
 **This guideline outlines the relevant concepts to find out where protection of data comes into play and how!**
 
-The goal of the document is to act as an interface between technical solutions and legal aspects, references to both are given to dive deeper into the subjects if you got curious. \[comment\]:"legal foundation, not only aspects, enable you to be compliant"
+The goal of the document is to act as an **interface between technical solutions and legal aspects**, references to both are given to dive deeper into the subjects if you got curious. \[comment\]:"legal foundation, not only aspects, enable you to be compliant"
 
 The legal aspects in this document are based on the _General Data Protection Regulation_ \(GDPR\), which becomes effective in May 25, 2018.
 
