@@ -6,7 +6,7 @@ The goal of the document is to motivate and support the development of privacy-r
 Privacy can be a great **feature** for your users and a **competetive argument** in comparison to other apps. Moreover in order to **stay out of trouble with new EU data protection regulation** some things need to be taken into account during app development.
 {% endhint %}
 
-Most guides focus either on the legal aspects of protecting the data of end users or they focus on technical measurements to secure processed data. This document is intended to fill the gap between both worlds and should provide an overview into the different aspects that need to be respected when developing applications.
+Most guides focus either on the legal aspects of protecting the data of end users or they focus on technical measurements to secure processed data. This document is intended to fill the gap between both worlds and provides an overview into the different aspects that need to be respected when developing applications.
 
 Depending on the use cases of your app, different things need to be considered about the protection of data. Not respecting certain aspects for certain scenarios might lead to legal consequences.
 
@@ -15,6 +15,8 @@ Depending on the use cases of your app, different things need to be considered a
 The goal of the document is to act as an **interface between technical solutions and legal aspects**, references to both are given to dive deeper into the subjects if you got curious. \[comment\]:"legal foundation, not only aspects, enable you to be compliant"
 
 The legal aspects in this document are based on the _General Data Protection Regulation_ \(GDPR\), which becomes effective in May 25, 2018.
+
+**Following this guideline will help you to meet the legal requirements of the new European Data Protection Regulation.**
 
 ## In very short at your fingertips...
 
@@ -26,17 +28,18 @@ The guideline is separated in a number of steps which are usually taken into acc
 
 ![Application Development Lifecycle](https://raw.githubusercontent.com/AppPETs/developer-guidelines/master/figures/applifecycle.png)
 
-* [x] shortly explain the phases \(one sentence\)
-* [PlanningPhase.md](applicationdevelopmentlifecycle/planningphase.md) - First carefully plan your app: purpose, functions, use cases. \[comment\]:"focus on functionality"
-* [AnalysisPhase.md](applicationdevelopmentlifecycle/analysisphase.md) - Analyse which data you need and how you need to process it. \[comment\]:"role of data analysis?"
-* [DesignPhase.md](applicationdevelopmentlifecycle/designphase.md) - The system is designed to satisfy the requirements identified in the previous phases. \[comment\]:"which"
-* [ImplementationPhase.md](applicationdevelopmentlifecycle/implementationphase.md) - Create the software code and documentation for the project.
+From phase to phase you incrementally get more concrete. If questions arise, you need to go back one step.
+
+* [PlanningPhase.md](applicationdevelopmentlifecycle/planningphase.md) - Functionality: First carefully plan your app: purpose, functions, use cases. 
+* [AnalysisPhase.md](applicationdevelopmentlifecycle/analysisphase.md) - Requirements, Data Collection: Analyse which data you need.
+* [DesignPhase.md](applicationdevelopmentlifecycle/designphase.md) - Adress the requirements, Data Processing: How is data processed und used.
+* [ImplementationPhase.md](applicationdevelopmentlifecycle/implementationphase.md) - Code, Best Practices: Create the software code and documentation for the project, apply solutions for privacy protection.
 * [TestingPhase.md](applicationdevelopmentlifecycle/testingphase.md) - The software is tested in various ways to ensure all features work as intended and to ensure quality.
 * [MaintenancePhase.md](applicationdevelopmentlifecycle/maintenancephase.md) - Consider continuos processes after publication.
 
-The basic idea is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover it is necessary to take into account potential risks in regard to protecting illegitimate access and abuse of personal data early and in each phase of development.
+The basic idea is that it is a good practice to think carefully about the needs of your app and how to address and implement the needed functionality. Moreover in any phase it is useful to take into account potential risks in regard to protecting illegitimate access and abuse of personal data early and in each phase of development.
 
-**Thinking early about potential risks and flaws makes it much more easy to address the risks with proper measures.**
+**Thinking early about potential risks and flaws makes it much more easy to address the risks with proper measures. This is the basic idea of privacy by design in a nutshell. Later on it becomes more difficult to change fundamental structures of your programme.**
 
 [\(More information on the application development lifecycle\)](applicationdevelopmentlifecycle/)
 
@@ -61,7 +64,9 @@ A background in security and privacy protection is not required. Background info
 
 ### Risk Assessment
 
-* after each Development Phase the risk needs to be reassessed
+* ideally after each Development Phase you need to reassess the risks.
+
+\*\*\* 
 
 END OF DOCUMENT
 

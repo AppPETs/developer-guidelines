@@ -1,5 +1,9 @@
 # Foundations
 
+More Literature on the Topics
+
+M. Hansen, [Top 10 Mistakes in System Design from a Privacy Perspective and Privacy Protection Goals](https://link.springer.com/chapter/10.1007%2F978-3-642-31668-5_2) in Privacy and Identity Management for Life
+
 ======== Alter Inhalt \(ggf. übernehmen\) ===========
 
 ## Foundations
@@ -14,7 +18,7 @@
 
 ### Threats to Privacy
 
-**TODO**: Entries marked with \(CC\) were taken from the Protection Profile for Mobile Device Fundamentals \([PDF](https://www.niap-ccevs.org/pp/pp_md_v3.0.pdf)\).
+**TODO**: Entries marked with \(CC\) were taken from the Protection Profile for Mobile Device Fundamentals \([PDF](https://www.niap-ccevs.org/pp/pp_md_v3.0.pdf)\). 🚩 BROKEN LINK
 
 * [ ] Eavesdropping \(CC\)
 * [ ] Network Attack \(CC\)

@@ -1,6 +1,6 @@
 # About
 
-**TODO:** add logo
+![The AppPETs Project, funded by the German Federal Ministry for Education and Research](.gitbook/assets/apppets-logo-de.png)
 
 This document outlines basic aspects of mobile apps which should be considered for writing mobile apps in order to build privacy protection into the apps.
 
@@ -8,5 +8,5 @@ We are convinced that **privacy protection is an attractive feature** and can at
 
 Basic concepts of privacy problems and how to address them using privacy enhancing technologies \(PETs\) are combined with legal hints how you comply with data protection law, i.e. the new european data protection regulation.
 
-The guideline is work in progress and written as part of the [AppPETs](http://app-pets.org/home/) project \(funded by the German [Federal Ministry of Education and Research](https://www.bmbf.de/en/index.html)\). Contributions, feedback and discussion is welcomed.
+The guideline is work in progress and written as part of the [AppPETs](http://app-pets.org/home/) project \(funded by the German [Federal Ministry of Education and Research](https://www.bmbf.de/en/index.html)\). Contributions, feedback and discussion are welcomed.
 
