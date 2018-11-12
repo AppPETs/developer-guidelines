@@ -18,7 +18,7 @@ M. Hansen, [Top 10 Mistakes in System Design from a Privacy Perspective and Priv
 
 ### Threats to Privacy
 
-**TODO**: Entries marked with \(CC\) were taken from the Protection Profile for Mobile Device Fundamentals \([PDF](https://www.niap-ccevs.org/pp/pp_md_v3.0.pdf)\). 🚩 BROKEN LINK
+**TODO**: Entries marked with \(CC\) were taken from the Protection Profile for Mobile Device Fundamentals \([PDF](https://www.niap-ccevs.org/MMO/PP/pp_md_v3.0.pdf)\).
 
 * [ ] Eavesdropping \(CC\)
 * [ ] Network Attack \(CC\)
