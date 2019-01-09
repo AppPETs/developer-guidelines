@@ -11,7 +11,7 @@ Before you start to code, carefully plan your app: what purpose is it for? Which
 In order to testify you carefully weighed the use and necessity of data, you need to document your decisions in a separate document. This will also help you to reconsider your design decisions in a later development phase.
 
 {% hint style="info" %}
-A proper documentation of the risks you identify and the measures you take regarding data protection will help yourself through the development process ot keep overview and will enable you to justify your decision in case of someone \(e.g. a data protection authority\) asks.
+A proper documentation of the risks you identify and the measures you take regarding data protection will help yourself through the development process to keep overview and will enable you to justify your decision in case of someone \(e.g. a data protection authority\) asks.
 {% endhint %}
 
 ## Defining the Purpose and Functionality of the App
@@ -40,7 +40,7 @@ Personenbezogene Daten dürfen aufgrund Art. 5 Abs. 1 b der Datenschutz-Grundver
 For example a weather app might let you choose and display weather information; a firewall app might let you inhibit or monitor a smartphone's connections to the internet. For this functions certain user data might be necessary or useful like geo-data or access to data connections. This data has implications which need to be taken into account at an early stage of development for proper integration of security measures.
 {% endhint %}
 
-* [ ] textbox reference
+* [x] textbox reference
 
 {% hint style="info" %}
 For further information have a look in the [ENISA Report on Privacy and data protection in mobile applications](https://www.enisa.europa.eu/publications/privacy-and-data-protection-in-mobile-applications) p. 55
