@@ -47,8 +47,6 @@ We conceive it as essential to use test-driven development \(see also section te
 
 ### Perform Risk Management
 
-* REM: for risk assessment more detailed how to? Assets, attacks, impact, probability.
-
 Threats and vulnerabilities that exist in the project’s environment or that result from interaction with other systems need to be identified during this phase. 
 
 **You cannot consider the design phase complete unless you have a threat model or models that include such considerations.** 
@@ -137,14 +135,48 @@ You need to keep in mind that you comply with the data protection principles of 
 
 Which technical measures can be applied to address the identified risks. Possible counter measures include:
 
-* Cryptography
-* Anonymisation
-* Pseudonymisation
-
-
-
-* [ ] _refer to PLib for examples for solving the issues_
-* [ ] TODO: Add links and examples
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Technical Measure</th>
+      <th style="text-align:left">Use case</th>
+      <th style="text-align:left">Caution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Cryptography</td>
+      <td style="text-align:left">For safer transmission and storage of data. With strong encryption you
+        can minimize the risk of leaking data during transmission. Also you can
+        store data encrypted in order to make it more difficult for attackers in
+        case of a lost device.</td>
+      <td style="text-align:left">Use strong methods and take care of the keys, to keep it effective.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Anonymisation</td>
+      <td style="text-align:left">If you can effectively remove the data's reference to individual person,
+        it is not suspect the General Data Protection Regulation. Take into account
+        that anonymized data can be deanonymized where data sets still contain
+        unique information. Most probably if you join different data sets it becomes
+        more likely to reidentify certain individuals, especially the ones which
+        deviate from the majority.</td>
+      <td style="text-align:left">Make sure that anonymized data cannot easily be reidentified.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Pseudonymisation</td>
+      <td style="text-align:left">
+        <p>If you replace the unique ID through a chiffre instead of deleting the
+          unique ID, it is pseudonymized. Keep in mind that this kind of data can
+          quite easily be reidentified.</p>
+        <ul>
+          <li>REM: add legal notice</li>
+        </ul>
+      </td>
+      <td style="text-align:left">Take into account that pseudonymized data can quite easy be reidentified
+        with some additional information.</td>
+    </tr>
+  </tbody>
+</table>See next section for examples from our Privacy Library.
 
 ### Organisational Measures
 

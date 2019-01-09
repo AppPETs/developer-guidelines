@@ -114,7 +114,10 @@ If children or other persons who require particular legal protection are involve
 
 ## Risk Assessment
 
-[comment](https://github.com/AppPETs/developer-guidelines/tree/5d6d22d22b2f697aeba374552a121460ae793d2a/%22/README.md):"to be discussed"
+* [comment](https://github.com/AppPETs/developer-guidelines/tree/5d6d22d22b2f697aeba374552a121460ae793d2a/%22/README.md):"to be discussed"
+* cf. risk management in section "Design Phase"
+
+
 
 * [ ] which generic parts of RA can be put in Introduction.md / Foundations.md and which special part might be relevant for the specific phases
 * [ ] the criteria mentioned above are a good basis for the risk assessment, which shoule be revisited after every step in the development lifecycle
