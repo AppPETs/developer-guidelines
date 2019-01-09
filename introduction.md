@@ -6,7 +6,7 @@ The goal of the document is to motivate and support the development of privacy-r
 Privacy can be a great **feature** for your users and a **competetive argument** in comparison to other apps. Moreover in order to **stay out of trouble with new EU data protection regulation** some things need to be taken into account during app development.
 {% endhint %}
 
-Most guides focus either on the legal aspects of protecting the data of end users or they focus on technical measurements to secure processed data. This document is intended to fill the gap between both worlds and provides an overview into the different aspects that need to be respected when developing applications.
+Most guides focus either on the **legal** aspects of protecting the data of end users or they focus on **technical** measurements to secure processed data. This document is intended to fill the gap between both worlds and should provide an overview into the different aspects that need to be respected when developing applications.
 
 Depending on the use cases of your app, different things need to be considered about the protection of data. Not respecting certain aspects for certain scenarios might lead to legal consequences.
 

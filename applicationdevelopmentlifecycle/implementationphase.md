@@ -1,12 +1,14 @@
 # Implementation Phase
 
-[comment](https://github.com/AppPETs/developer-guidelines/tree/5d6d22d22b2f697aeba374552a121460ae793d2a/%22/README.md):"trifft das denn Sinn der Section?" In this phase, the developers create the software code and documentation for the project.
+* [ ] [R](https://github.com/AppPETs/developer-guidelines/tree/5d6d22d22b2f697aeba374552a121460ae793d2a/%22/README.md)EM: here we will give examples how to implement privacy enhancing functions with the PLibtrifft das denn Sinn der Section?" 
+
+In this phase, the developers create the software code and documentation for the project.
 
 * [ ] explain some essentials in the subsections before referencing to external documents...
 
 ## Established Best Practices
 
-To establish and follow the best practises of software development the programmers should be aware of security and privacy recommendations. Please refer to the “Smartphone Secure Development Guidelines for App Developers” or “Privacy and Data Protection by Design – from policy to engineering” for further information on those topics. \(LINKS\)
+To establish and follow the best practices of software development the programmers should be aware of security and privacy recommendations. We shortly list some essential concepts. For more detailed descriptions we recommend to read [Smartphone Secure Development Guidelines for App Developers](https://www.enisa.europa.eu/publications/smartphone-secure-development-guidelines) or [Privacy and Data Protection by Design – from policy to engineering](https://www.enisa.europa.eu/publications/privacy-and-data-protection-by-design).
 
 ### Test-Driven Development
 
@@ -16,19 +18,29 @@ To verify the correctness of the implementation the software should be tested. I
 
 When several programmers work on the same code the risk of conflicting contributions to the code base by different programmers arises. Those conflicts arise due to modifications of the existing code base or by adding new code and dependencies to the project. To avoid these problems a best practise known as “Continuous Integration \(CI\)” can be applied, where developers integrate their contributions early and often into the common code base.
 
+* [ ] REM: add short summarizing sentence for CI and reference
+
 ### Proper Documentation
 
 A technical documentation of the code may contain information about what a code does and how it does it, its dependencies and where this code is required. These documentations are valuable for the programmers and the maintainers of a specific code base and should be written along with the implementation of the code.
 
+* [ ] REM: add what you need to do here in detail, examples, otherwise: too generic
+
 ### Take Care of Third Party Code
 
-The use of third party code / services may be beneficial or even necessary for the implementation of a software project. The integration of such code or service into a software project comes along with additional dependencies. To sustain the quality of the software project the third party code / service should be checked whether it fulfils the given privacy and security requirements. If a third party code is no longer maintained, this can lead to security and compatibility issues. In those cases, it is recommended to self-maintain such code. Besides the technical integration of third party code / services one should verify that the licence, under which the usage of a third party code / service is allowed, integrates with the software project.
+The use of third party code / services may be beneficial or even necessary for the implementation of a software project. The integration of such code or service into a software project comes along with additional dependencies. To sustain the quality of the software project the third party code / service should be checked whether it fulfils the given privacy and security requirements. 
 
-### Reconsider Preceding Phases Where Necessary
+* [ ] REM: Also: How is third party code used??? -&gt; e.g. deactivation of unnecessary features \(!\)
+
+If a third party code is no longer maintained, this can lead to security and compatibility issues. In those cases, it is recommended to self-maintain such code. Besides the technical integration of third party code / services one should verify that the licence, under which the usage of a third party code / service is allowed, integrates with the software project.
+
+### Reconsider Preceding Phases where Necessary
 
 If during the implementation phase challenges arise which require to deviate from the original design, this should be done by an additional iteration of the analysis phase.
 
 ## **The Privacy Library and Privacy-enhanced Technologies**
+
+* [ ] REM: Add examples for PLib
 
 The Privacy Library \(plib\) is a development library one can integrate into the app development environment. The plib contains a collection of various methods, separated into two classes: i\) methods for ensuring self-determination about privacy-related data and ii\) methods offering various security-related functions including complex privacy-enhanced technologies \(PETs\).
 
@@ -74,5 +86,7 @@ Such persistent decisions are revocable through the plib user interface. The aud
 
 Beyond the "user ask"-processes, the plib offers also methods for accessing private data without demanding access by the runtime user, in which the data is accessed in forms not interpretable by others, in this case in an anonymized, pseudonymized or encrypted form.
 
-**One challenge is the anonymization and a stricter challenge is the pseudonymization of data objects.** First, the evaluation \(REM: it= the evaluation?\) has to ensure that the plib delivers anonymized or pseudonymized objects in their correct structure. For example, IPv4 addresses are structed by four values in the range between 0 and 255. Phone numbers can have a plus or not and when only on the first position and are defined by digits and can carry also brackets and spaces. Location objects are defined by latitude and longitude within defined ranges. The challenge here is to adapt values, that are themselves legitimate structed. The caller and receiver of such data objects should not be able to determine that the given data object is not the real one. This challenge becomes harder for pseudonymizations, in which it should be able to determine the original data object, if required. This is done by structure-related encryptions. \(REM: The difficulty of pseudonymisation of data with little entropy e.g. phone numbers is discussed here: [https://signal.org/blog/contact-discovery/](https://signal.org/blog/contact-discovery/), is this taken into account into the plib or the evaluation?\)
+**One challenge is the anonymization and a stricter challenge is the pseudonymization of data objects.** First, the evaluation \(REM: it= the evaluation?\) has to ensure that the plib delivers anonymized or pseudonymized objects in their correct structure. For example, IPv4 addresses are structed by four values in the range between 0 and 255. Phone numbers can have a plus or not and when only on the first position and are defined by digits and can carry also brackets and spaces. Location objects are defined by latitude and longitude within defined ranges. The challenge here is to adapt values, that are themselves legitimate structed. The caller and receiver of such data objects should not be able to determine that the given data object is not the real one. This challenge becomes harder for pseudonymizations, in which it should be able to determine the original data object, if required. This is done by structure-related encryptions.
+
+* [ ] REM: The difficulty of pseudonymisation of data with little entropy e.g. phone numbers is discussed here: [https://signal.org/blog/contact-discovery/](https://signal.org/blog/contact-discovery/), is this taken into account into the plib or the evaluation?
 
