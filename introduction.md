@@ -74,7 +74,6 @@ DISCUSSION SPACE
 
 TODO:
 
-* [ ] add descriptions and definitions of basic concepts used during the DevGL / or in [Foundations](foundations.md)
 * [ ] Explain that the referenced technical solutions are what is considered "state-of-the-art" – which is a fuzzy term in a legal context.
 * [ ] We could also reference developer guidelines from Google/Apple \(see [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)\) and mention that non-compliance with certain aspects might not only lead to legal consequences but also to rejecting for a market place \(at least that is the case for Apple's App Store\). Reason behind this: Developers might not fear legal consequences but rejection, because legal consequences might not appear imminent to them, e.g., if they are not directly responsible and think their boss/lawyers will handle it.
 * [ ] How do we want to handle the separation of Business to Customer \(B2C\), Business to Employee \(B2E\), and Business to Business \(B2B\)? I suggest that the discussion of certain aspects should clarify the relevant context.

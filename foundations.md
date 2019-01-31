@@ -1,10 +1,6 @@
 # Foundations
 
-More Literature on the Topics
-
-M. Hansen, [Top 10 Mistakes in System Design from a Privacy Perspective and Privacy Protection Goals](https://link.springer.com/chapter/10.1007%2F978-3-642-31668-5_2) in Privacy and Identity Management for Life
-
-======== Alter Inhalt \(ggf. übernehmen\) ===========
+This is a stub.
 
 ## Foundations
 
@@ -54,4 +50,6 @@ M. Hansen, [Top 10 Mistakes in System Design from a Privacy Perspective and Priv
 **Unlinkability**
 
 **Transparency**
+
+M. Hansen, [Top 10 Mistakes in System Design from a Privacy Perspective and Privacy Protection Goals](https://link.springer.com/chapter/10.1007%2F978-3-642-31668-5_2) in Privacy and Identity Management for Life
 

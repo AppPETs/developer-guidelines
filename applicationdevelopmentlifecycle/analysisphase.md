@@ -123,7 +123,7 @@ If children or other persons who require particular legal protection are involve
 * [ ] the criteria mentioned above are a good basis for the risk assessment, which shoule be revisited after every step in the development lifecycle
 * [ ] what means risk here for the developer? [comment](https://github.com/AppPETs/developer-guidelines/tree/5d6d22d22b2f697aeba374552a121460ae793d2a/%22/README.md):"risk to endanger privacy of clients"
 * all processed data needs to be analysed to specify a risk level of potential malicious use of the data
-  * based on these risk levels special protection routines need to be applied _\(hier auf standardisierte Risk-Level verweisen @ULD habt ihr da was?\)_
+  * based on these risk levels special protection routines need to be applied \(refer to standardized risk-levels\)
 
 **Examples:**
 
