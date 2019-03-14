@@ -2,7 +2,6 @@
 
 * [About](README.md)
 * [Introduction](introduction.md)
-* [Foundations](foundations.md)
 * [Application Development Lifecycle](applicationdevelopmentlifecycle/README.md)
   * [Planning Phase](applicationdevelopmentlifecycle/planningphase.md)
   * [Analysis Phase](applicationdevelopmentlifecycle/analysisphase.md)
@@ -10,4 +9,5 @@
   * [Implementation Phase](applicationdevelopmentlifecycle/implementationphase.md)
   * [Testing Phase](applicationdevelopmentlifecycle/testingphase.md)
   * [Maintenance](applicationdevelopmentlifecycle/maintenancephase.md)
+* [Foundations](foundations.md)
 

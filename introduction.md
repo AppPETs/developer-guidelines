@@ -51,21 +51,6 @@ This document is for software developers or other decision makers related to dat
 
 A background in security and privacy protection is not required. Background information is listed in the [Foundations](foundations.md) section. The legal aspects are addressed in a non-legalese form, as developers tend to not read them – you are not alone on this.
 
-## Definition of Common Used Terms
-
-### **Privacy by Design & Default**
-
-* All data protection-relevant aspects related to the end user must be planned to be secure
-* All options for ensuring data protective behavior have to be preconfigured in a way a user can not accidentally lose personal information
-* Data access takes place in line with data economy principles
-* Data not immediately used may not be collected
-* Passing data to third parties requires an **Opt-In** from the user
-  * Opt-In means that the user needs to explicitly confirm the data transfer beyond the scope of the application
-
-### Risk Assessment
-
-* ideally after each Development Phase you need to reassess the risks.
-
 \*\*\* 
 
 END OF DOCUMENT

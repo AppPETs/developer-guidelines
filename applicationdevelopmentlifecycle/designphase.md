@@ -154,12 +154,12 @@ Which technical measures can be applied to address the identified risks. Possibl
     </tr>
     <tr>
       <td style="text-align:left">Anonymisation</td>
-      <td style="text-align:left">If you can effectively remove the data's reference to individual person,
-        it is not suspect the General Data Protection Regulation. Take into account
-        that anonymized data can be deanonymized where data sets still contain
-        unique information. Most probably if you join different data sets it becomes
-        more likely to reidentify certain individuals, especially the ones which
-        deviate from the majority.</td>
+      <td style="text-align:left">If you can effectively remove the data&apos;s reference to individual
+        person, it is not suspect the General Data Protection Regulation. Take
+        into account that anonymized data can be deanonymized where data sets still
+        contain unique information. Most probably if you join different data sets
+        it becomes more likely to reidentify certain individuals, especially the
+        ones which deviate from the majority.</td>
       <td style="text-align:left">Make sure that anonymized data cannot easily be reidentified.</td>
     </tr>
     <tr>
