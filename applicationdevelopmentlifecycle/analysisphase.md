@@ -23,12 +23,7 @@ Access to device-specific information \(e.g. UDID, IMEI, MAC addresses, etc.\) M
 
 The processing of personal data makes it necessary to define a **Privacy Policy**. Since the minimum requirements of the local data protection laws have to be fullfilled anyway we suggest to take data protection serious and go a step further to build attractive and competitive apps.
 
-* [ ] [comment](https://github.com/AppPETs/developer-guidelines/tree/5d6d22d22b2f697aeba374552a121460ae793d2a/"/README.md):"no minimal compliance, but real data protection
-
 _If we talk about personal data, keep in mind that **a lot of data can be linked to individuals**, especially in the field of mobile apps. That's why it is advised to avoid the storage and processing of data where possible_
-
-* [ ] _notice that all data on a device might be linkable to a person._ -&gt; data minimisation is key
-* [ ] Textbox: Legal Hint: Privacy Policy requirements
 
 The definition of a privacy policy implies, but is not limited to:
 
@@ -43,7 +38,6 @@ The definition of a privacy policy implies, but is not limited to:
 * Statement on how to access personal saved data as a user
 * Statement on how to initiate personal data deletion as a user
 * extended information about privacy policies etc. can be found here: \[[https://www.enisa.europa.eu/](https://www.enisa.europa.eu/)\]
-  * [ ] \(hier einfach die basalen Punkte, \(die zeitlos sind\) übernehmen\*
   * [ ] make clearer reference to concrete pages
 
 ### Is data leaving the main ecosystem?
@@ -54,13 +48,14 @@ Think about on which level your data is processed and transmitted.
   * is data leaving the "local boundary" 
   * is data leaving the "eco system boundary"
   * is data leaving the "3rd party boundary"
-  * [ ] explain what that exactly means!
 
-For the processing of data, you need a proper contract, that you are entitled to do so. This is bound to a number of duties
+{% hint style="info" %}
+For the processing of data, you need a proper contract, that you are entitled to do so. This is bound to a number of duties. \(cf. [Article 28, GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e3033-1-1)\)_._
+{% endhint %}
 
-* [ ] _\(german ADV\)_ \(translation of the term?\)
-  * [ ] which duties exactly?
-  * [ ] _\(processors need to be obliged to data protection principles_
+{% hint style="success" %}
+_You can find an_ [_template_](https://www.gdd.de/downloads/praxishilfen/Mustervertrag_zur_Auftragsverarbeitung_DS-GVO_english.docx) _at the Society for data protection and data securitys \(GDD\) website._
+{% endhint %}
 
 ### Which data needs which level of protection?
 
@@ -73,23 +68,25 @@ Special categories of data are placed under particular protection of the law.
 | sensitive data | harmful consequences possible, special risk assessment necessary |
 |  |  |
 
-* [ ] add legal hint to "Data Protection Level"
-
 | Legal Hint: "Data Economy" |
 | :--- |
 | Access to data \(e.g. PIM, media, etc.\) MUST take place in line with data economy1 according to §3a BDSG. Data MUST NOT be passed on to third parties without an Opt-In from the user. Utilization of the data SHOULD be explained to the user \(why does the application need this access, and what will not function if I do not provide this access?\). |
 
-#### Sensitive Data
+#### Special categories of personal data with stronger limitations
 
-Amongst these are personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation. These data generally may only be used where the data subject has given explicit consent regarding these very categories of information.
+{% hint style="warning" %}
+Special categotires of data include data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation. \([Art 9, GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e3033-1-1)\)
 
-* [ ] convert to box?
+These data generally may only be used where the data subject has given explicit consent regarding these very categories of information.
+{% endhint %}
+
+
 
 #### Extent of data used
 
 Where the information on individuals used by the app is particularly comprehensive, exposing their conduct or characteristics, particular attention needs to be paid to the protection of those data.
 
-* Is data used that must be deletable on user demand? \(@ULD: which data is affected\) _\(grundsätzlich immer\)_
+* In general data used must be deletable on user demand
   * a routine must be implemented to ensure full deletion of user data on demand
     * all saved data from the user must be deletable
     * this applies also to data stored in the cloud
@@ -100,18 +97,4 @@ Where the information on individuals used by the app is particularly comprehensi
 {% hint style="info" %}
 If children or other persons who require particular legal protection are involved, the processing of data might be more restricted than otherwise.
 {% endhint %}
-
-## Risk Assessment
-
-* [comment](https://github.com/AppPETs/developer-guidelines/tree/5d6d22d22b2f697aeba374552a121460ae793d2a/"/README.md):"to be discussed"
-* cf. risk management in section "Design Phase"
-* [ ] which generic parts of RA can be put in Introduction.md / Foundations.md and which special part might be relevant for the specific phases
-* [ ] the criteria mentioned above are a good basis for the risk assessment, which shoule be revisited after every step in the development lifecycle
-* [ ] what means risk here for the developer? [comment](https://github.com/AppPETs/developer-guidelines/tree/5d6d22d22b2f697aeba374552a121460ae793d2a/"/README.md):"risk to endanger privacy of clients"
-* all processed data needs to be analysed to specify a risk level of potential malicious use of the data
-  * based on these risk levels special protection routines need to be applied \(refer to standardized risk-levels\)
-
-**Examples:**
-
-* [ ] TODO...
 
