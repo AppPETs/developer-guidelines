@@ -25,9 +25,6 @@ What will the app do for the end-user? It might seem obvious, but **it is a good
 
 Especially it is important to carefully think which user data is needed and how it will be processed.
 
-* [ ] textbox style and title: legal hint: purpose binding
-* [ ] translate text
-
 {% hint style="warning" %}
 According to Art. 5 of the GDPR the processing and storage of personal data is only allowed for "specified, explicit and legitimate purposes" \(1b\) and be "adequate, relevant and limited to what is necessary " \(1c\).
 {% endhint %}
@@ -76,13 +73,6 @@ There are different categories of data which are relevant for the use of the app
 
 * **Primary Data: Pre-existing data**: Data related to the end-user or to other data subjects concerned. Be aware that on the device might be data which the user has no right to give third parties access to, for instance contact data or pictures of other persons.
 * **Secondary Data: User generated data**: Data will be produced while the app is running. This might be user content \(e.g. messages\), log data, data related to payment, statistics to authorizing access or other. These will also contain personal data that require protection and thus need to be specified and assessed.
-
-### Things to add:
-
-* [ ] Check Laws and Regulations applicable to your specific sector of industry
-* [ ] Rights and obligations to erase the data collected
-
-### Pastebin
 
 #### 
 
