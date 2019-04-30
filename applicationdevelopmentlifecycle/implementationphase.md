@@ -5,7 +5,7 @@ In this phase, the developers create the software code and documentation for the
 * We first explain some basic best practice concepts you should take into account during development.
 * We also show some examples of our Privacy Library to show how you can make use of it.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Do not write your own crypto. It has many pitfalls. Be careful when using crypto functions, also the established crypto-libs have their pitfalls. See below for a number of crypto functions provided by the plib.
 {% endhint %}
 
