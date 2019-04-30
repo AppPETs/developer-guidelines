@@ -20,7 +20,29 @@ The legal aspects in this document are based on the _General Data Protection Reg
 
 ## In very short at your fingertips...
 
-\[comment\]:"add here a one page summary of the content and motivate a structured development along the lines outlined in the rest of the document. give hints to papers and material referenced and attached to this document"
+In very very short we want to refer to the [Mozilla Data Privacy Principles](https://www.mozilla.org/en-US/privacy/principles/) [\(CC\)](https://creativecommons.org/licenses/by-sa/3.0/deed.en):
+
+1. **No surprises**
+
+   Use and share information in a way that is transparent and benefits the user.
+
+2. **User control**
+
+   Develop products and advocate for best practices that put users in control of their data and online experiences.
+
+3. **Limited data**
+
+   Collect what we need, de-identify where we can and delete when no longer necessary.
+
+4. **Sensible settings**
+
+   Design for a thoughtful balance of safety and user experience.
+
+5. **Defense in depth**
+
+   Maintain multi-layered security controls and practices, many of which are publicly verifiable.
+
+We will go with you through the different steps of the development lifecyle to discuss the relevant issues for each development phase.
 
 ## Document Structure
 
@@ -50,17 +72,4 @@ If you want to learn more about basic concepts like privacy by default, you can 
 This document is for software developers or other decision makers related to data processing. It aims to clarify the actions required to prevent legal consequences and in addition to support the privacy of their end users.
 
 A background in security and privacy protection is not required. Background information is listed in the [Foundations](foundations.md) section. The legal aspects are addressed in a non-legalese form, as developers tend to not read them – you are not alone on this.
-
-\*\*\* 
-
-END OF DOCUMENT
-
-DISCUSSION SPACE
-
-TODO:
-
-* [ ] Explain that the referenced technical solutions are what is considered "state-of-the-art" – which is a fuzzy term in a legal context.
-* [ ] We could also reference developer guidelines from Google/Apple \(see [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)\) and mention that non-compliance with certain aspects might not only lead to legal consequences but also to rejecting for a market place \(at least that is the case for Apple's App Store\). Reason behind this: Developers might not fear legal consequences but rejection, because legal consequences might not appear imminent to them, e.g., if they are not directly responsible and think their boss/lawyers will handle it.
-* [ ] How do we want to handle the separation of Business to Customer \(B2C\), Business to Employee \(B2E\), and Business to Business \(B2B\)? I suggest that the discussion of certain aspects should clarify the relevant context.
-* [ ] Is Mobile Device Management \(MDM\) relevant?
 
