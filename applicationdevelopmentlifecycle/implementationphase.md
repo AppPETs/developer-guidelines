@@ -9,8 +9,6 @@ In this phase, the developers create the software code and documentation for the
 Do not write your own crypto. It has many pitfalls. Be careful when using crypto functions, also the established crypto-libs have their pitfalls. See below for a number of crypto functions provided by the plib.
 {% endhint %}
 
-* [ ] explain some essentials in the subsections before referencing to external documents...
-
 ## Established Best Practices
 
 To establish and follow the best practices of software development the programmers should be aware of security and privacy recommendations. We shortly list some essential concepts. For more detailed descriptions we recommend to read [Smartphone Secure Development Guidelines for App Developers](https://www.enisa.europa.eu/publications/smartphone-secure-development-guidelines) or [Privacy and Data Protection by Design – from policy to engineering](https://www.enisa.europa.eu/publications/privacy-and-data-protection-by-design).
@@ -29,15 +27,11 @@ When several programmers work on the same code the risk of conflicting contribut
 
 To avoid these problems a best practise known as “Continuous Integration \(CI\)” can be applied, where developers integrate their contributions early and often into the common code base.
 
-* [ ] REM: add short summarizing sentence for CI and reference
-
 ### Proper Documentation
 
 A technical documentation of the code may contain information about what a code does and how it does it, its dependencies and where this code is required. 
 
 These documentations are valuable for the programmers and the maintainers of a specific code base and should be written along with the implementation of the code.
-
-* [ ] REM: add what you need to do here in detail, examples, otherwise: too generic
 
 ### Take Care of Third Party Code
 
@@ -46,8 +40,6 @@ The use of third party code / services may be beneficial or even necessary for t
 {% hint style="info" %}
 To sustain the quality of the software project the third party code / service needs to be checked whether it fulfils the given privacy and security requirements. 
 {% endhint %}
-
-* [ ] REM: Also: How is third party code used??? -&gt; e.g. deactivation of unnecessary features \(!\)
 
 **If a third party code is no longer maintained, this can lead to security and compatibility issues.** In those cases, it is recommended to self-maintain such code. 
 
@@ -60,8 +52,6 @@ If during the implementation phase challenges arise which require to deviate fro
 {% endhint %}
 
 ## **The Privacy Library and Privacy-Enhanced Technologies**
-
-* [ ] REM: Add examples for PLib
 
 The Privacy Library \(plib\) is a development library one can integrate into the app development environment. 
 
@@ -77,10 +67,8 @@ The plib can be regarded as a **privacy data flow coordinator for data**, which 
 The plib, regarded as a trusted component, is an essential component of the app audit process including a static data flow analysis. Under consideration of the internal of particular plib methods, a data flow outside the app’s influence can be regarded by the audit process as a legitimate data flow where self-determination with respect to the user’s private data is guaranteed, for example for methods, in which the user is asked to grant a given data flow at runtime or methods, in which sent data is securely encrypted by the plib’s encryption methods.
 
 {% hint style="info" %}
-The plib offers easy to integrate functionality for **storing credentials**, **encryption and decryption** and **anonymous communication.**
+The plib offers easy to integrate functionality for **storing credentials**, **encryption and decryption** and **anonymous communication.** 
 {% endhint %}
-
-* [ ] add reference to [Privacy-Kit-Doku](https://apppets.github.io/PrivacyKit/macos/public/index.html%20) and its Android equivalent
 
 ### **Pre-conditions and assumptions**
 
